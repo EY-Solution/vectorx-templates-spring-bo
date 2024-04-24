@@ -13,7 +13,7 @@ vx:
       enabled: true
       datasources:
         vx:
-          url: jdbc:log4jdbc:h2:file:C:\workspaces\ey-solutions\templates\vectorx-templates-bo\data\vx-h2;Mode=Oracle
+          url: jdbc:log4jdbc:h2:file:C:\workspaces\ey-solutions\templates\data\vx-h2;Mode=Oracle
           driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
           username: sa
           password:
