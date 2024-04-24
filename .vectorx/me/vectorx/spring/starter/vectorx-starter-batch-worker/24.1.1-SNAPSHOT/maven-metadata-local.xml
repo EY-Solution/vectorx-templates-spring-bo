@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>me.vectorx.spring.starter</groupId>
+  <artifactId>vectorx-starter-batch-worker</artifactId>
+  <versioning>
+    <lastUpdated>20240423055815</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>24.1.1-SNAPSHOT</value>
+        <updated>20240423055815</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>24.1.1-SNAPSHOT</value>
+        <updated>20240423055815</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>24.1.1-SNAPSHOT</value>
+        <updated>20240423055815</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>24.1.1-SNAPSHOT</version>
+</metadata>

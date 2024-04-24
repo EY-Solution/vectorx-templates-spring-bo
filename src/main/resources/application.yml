@@ -1,0 +1,27 @@
+server:
+  port: 21002
+
+vx:
+  core:
+    process-info:
+      default-system-code: BO
+  mvc:
+    view:
+      client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
+  data:
+    datasource:
+      enabled: true
+      datasources:
+        vx:
+          url: jdbc:log4jdbc:h2:file:C:\workspaces\ey-solutions\templates\vectorx-templates-bo\data\vx-h2;Mode=Oracle
+          driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+          username: sa
+          password:
+      default-datasource-name: vx
+
+spring:
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true

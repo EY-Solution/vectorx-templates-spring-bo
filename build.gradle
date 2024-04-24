@@ -1,0 +1,68 @@
+plugins {
+	id 'java'
+    id 'eclipse'
+	id 'org.springframework.boot' version '2.7.18'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'me.vectorx.spring.templates.bo'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+    withSourcesJar()
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:2021.0.8"
+	}
+}
+
+repositories {
+    maven {
+        url file('.vectorx')
+        content {
+            includeGroup "me.vectorx.spring"
+        }
+
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation("me.vectorx.spring:vectorx-autoconfigure:${vectorxVersion}")
+    implementation("me.vectorx.spring:vectorx-core:${vectorxVersion}")
+    implementation("me.vectorx.spring:vectorx-net:${vectorxVersion}")
+    implementation("me.vectorx.spring:vectorx-web-servlet-view:${vectorxVersion}")
+    implementation("me.vectorx.spring:vectorx-management-bo:${vectorxVersion}")
+
+    testImplementation("me.vectorx.spring:vectorx-test:${vectorxVersion}")
+
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+    testCompileOnly 'org.projectlombok:lombok:1.18.32'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-api'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    runtimeOnly 'com.h2database:h2'
+}
+
+task('initSourceDirectories') {
+    sourceSets*.java.srcDirs*.each {
+        if (!it.exists()) {
+            it.mkdirs()
+        }
+    }
+
+    sourceSets*.resources.srcDirs*.each {
+        if (!it.exists()) {
+            it.mkdirs()
+        }
+    }
+}

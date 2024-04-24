@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-cloud-aws",
+    "version": "24.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.1"
+          }
+        },
+        {
+          "group": "io.awspring.cloud",
+          "module": "spring-cloud-starter-aws",
+          "version": {
+            "requires": "2.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-aws-24.1.1.jar",
+          "url": "vectorx-cloud-aws-24.1.1.jar",
+          "size": 2751,
+          "sha512": "c43678839162b974f8639eb0a0d7409ea3fa0b64fd5a69e9fcbf30a66d57c5ddeae58b93a41fd1df52c399eb238f980845ebe05b0e35f0e80d54d6d92f6d021e",
+          "sha256": "7c74ba9f8791d0c720360c036d3831e2ae0c6aa258c22e43871f8fb888b75a52",
+          "sha1": "31950a82dc24069a849794e6b8ac7b1a645ea8ea",
+          "md5": "13a6fd628d9f83cc8557e618cd3ae0d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.1"
+          }
+        },
+        {
+          "group": "io.awspring.cloud",
+          "module": "spring-cloud-starter-aws",
+          "version": {
+            "requires": "2.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-aws-24.1.1.jar",
+          "url": "vectorx-cloud-aws-24.1.1.jar",
+          "size": 2751,
+          "sha512": "c43678839162b974f8639eb0a0d7409ea3fa0b64fd5a69e9fcbf30a66d57c5ddeae58b93a41fd1df52c399eb238f980845ebe05b0e35f0e80d54d6d92f6d021e",
+          "sha256": "7c74ba9f8791d0c720360c036d3831e2ae0c6aa258c22e43871f8fb888b75a52",
+          "sha1": "31950a82dc24069a849794e6b8ac7b1a645ea8ea",
+          "md5": "13a6fd628d9f83cc8557e618cd3ae0d8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-aws-24.1.1-javadoc.jar",
+          "url": "vectorx-cloud-aws-24.1.1-javadoc.jar",
+          "size": 70362,
+          "sha512": "82265ceb139383eb5d95509e15dbd0a5b80669753600e338241db4b78ab0fead5b3dff153666b388acc972c8f4fbdf74d2031f64badeefb44f5fe4cbfebfcc33",
+          "sha256": "42f5bd9a73331ba08a158bbe6cdcb8d1469922fd1c18cb7497989d5ad8ebd25e",
+          "sha1": "f3a9296fb7973de978d6c3f71f1a6025e53dc8d8",
+          "md5": "aae6d5a962a23258ec2cc5bc9f03cde4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-aws-24.1.1-sources.jar",
+          "url": "vectorx-cloud-aws-24.1.1-sources.jar",
+          "size": 1228,
+          "sha512": "7578998d253736a5a4fe7d9aa74f371db430bf7e4d4d4efca3f0fdbe76c4df437ba768a2931df401c14ca4fef63273279ff2d8c748f97401a4ac6b18719e8013",
+          "sha256": "6e67face6ca744c46fa535a7e3825893454cd0dd54fc990ee037b9ed3f1c5726",
+          "sha1": "3ca3a764208af5cc662525db809d7f93e53a1090",
+          "md5": "f60b2cf657a82337a3b38d5d7cc132d7"
+        }
+      ]
+    }
+  ]
+}

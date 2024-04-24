@@ -1,0 +1,619 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-cloud-gateway",
+    "version": "24.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-eureka-client",
+          "version": {
+            "requires": "24.1.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-gateway",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.9.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-gateway-24.1.1.jar",
+          "url": "vectorx-cloud-gateway-24.1.1.jar",
+          "size": 46813,
+          "sha512": "a631451651fd9ffef98736f668a90f5d129c533ad149b96410a03f5050e69c0c0e2bc60e7f399301fa62f9d6e4e1d31f3ef5b49415cefa0d7a131125f578a7af",
+          "sha256": "b62c8dc979b1caee94007d3e49ebe3a8bdf575edbd2a00970c658a9835751923",
+          "sha1": "b44cbc338c69ae49292e00d1ca96d516d05e2ad5",
+          "md5": "8c8eb140619bb6e7b1890aab6796d529"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-eureka-client",
+          "version": {
+            "requires": "24.1.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-gateway",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.9.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-gateway-24.1.1.jar",
+          "url": "vectorx-cloud-gateway-24.1.1.jar",
+          "size": 46813,
+          "sha512": "a631451651fd9ffef98736f668a90f5d129c533ad149b96410a03f5050e69c0c0e2bc60e7f399301fa62f9d6e4e1d31f3ef5b49415cefa0d7a131125f578a7af",
+          "sha256": "b62c8dc979b1caee94007d3e49ebe3a8bdf575edbd2a00970c658a9835751923",
+          "sha1": "b44cbc338c69ae49292e00d1ca96d516d05e2ad5",
+          "md5": "8c8eb140619bb6e7b1890aab6796d529"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-gateway-24.1.1-javadoc.jar",
+          "url": "vectorx-cloud-gateway-24.1.1-javadoc.jar",
+          "size": 162590,
+          "sha512": "cee5c10113afe40f38669b42b1083701630e9c94d5e00e1c1b18340ff191db5b71ec3dd38169e3f246f56e7aa534d7618531ddbfc6b333604d8a9e8c6a217a73",
+          "sha256": "b1d4e9e7c0ab996310e05b34927330183558a4c4b406548d1bfe8cc566f49c47",
+          "sha1": "6c48a205fad69b90e80b514decc9697689227d64",
+          "md5": "09039f71494014e75dc1bb461439f986"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-gateway-24.1.1-sources.jar",
+          "url": "vectorx-cloud-gateway-24.1.1-sources.jar",
+          "size": 15249,
+          "sha512": "1f7f42013c65fcfe7dffc13f3cb1416fbc71879f56142d54dad15971cfadbe51e7e336e6c2c2704a7b32d7ee5a34d69aeb3fae9e612e53f52d36cbe71de14a25",
+          "sha256": "1b7d8f14c06986f39e29824339cd5f0036e0fef09ca87e9e341d68e18e26918b",
+          "sha1": "fda37fe5943a113eab041220031a24b58ac6d7c3",
+          "md5": "1efc75bd471081bc1435a6669841d775"
+        }
+      ]
+    }
+  ]
+}

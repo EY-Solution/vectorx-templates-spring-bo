@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.vectorx.spring.starter</groupId>
+  <artifactId>vectorx-starter-view-bo</artifactId>
+  <versioning>
+    <latest>24.1.1-SNAPSHOT</latest>
+    <versions>
+      <version>24.1.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240423055816</lastUpdated>
+  </versioning>
+</metadata>
