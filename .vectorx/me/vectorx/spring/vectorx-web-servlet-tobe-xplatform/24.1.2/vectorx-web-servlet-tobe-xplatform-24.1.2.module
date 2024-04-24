@@ -1,0 +1,345 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-web-servlet-tobe-xplatform",
+    "version": "24.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-tobe",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "jstl",
+          "module": "jstl",
+          "version": {
+            "requires": "1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-web-servlet-tobe-xplatform-24.1.2.jar",
+          "url": "vectorx-web-servlet-tobe-xplatform-24.1.2.jar",
+          "size": 3324,
+          "sha512": "9fb0b5d0d30c5d4efdf84f2b46475bfcd53dfd66fef80289cfb28b1b9715919d386779c1420a8f2eb2692bb37ac944efa44ccde0fe7667be8c3b2f9dd4e2c91a",
+          "sha256": "6de4273393db5d4a2d007e89aea5a1c1b073a101071743db7daf152db08492fe",
+          "sha1": "7497bfac1c38a71c2f404c2852f88cfaa3067eba",
+          "md5": "e689c4e991ef9b2c857bf1b93e27ce23"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-tobe",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "jstl",
+          "module": "jstl",
+          "version": {
+            "requires": "1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-web-servlet-tobe-xplatform-24.1.2.jar",
+          "url": "vectorx-web-servlet-tobe-xplatform-24.1.2.jar",
+          "size": 3324,
+          "sha512": "9fb0b5d0d30c5d4efdf84f2b46475bfcd53dfd66fef80289cfb28b1b9715919d386779c1420a8f2eb2692bb37ac944efa44ccde0fe7667be8c3b2f9dd4e2c91a",
+          "sha256": "6de4273393db5d4a2d007e89aea5a1c1b073a101071743db7daf152db08492fe",
+          "sha1": "7497bfac1c38a71c2f404c2852f88cfaa3067eba",
+          "md5": "e689c4e991ef9b2c857bf1b93e27ce23"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-web-servlet-tobe-xplatform-24.1.2-javadoc.jar",
+          "url": "vectorx-web-servlet-tobe-xplatform-24.1.2-javadoc.jar",
+          "size": 70855,
+          "sha512": "c7fccc5d23b15a902f087fdedab62a4d732bf46d05315954a1ce9ad7c09d3229c6c3463d8694aa4c43ad40bb72a4b97cced26a249ee76a94b1cedbe684114fc4",
+          "sha256": "5551589af068afa7660e2436d3077f3c1f693aa7f024a982973e88f6d378fad4",
+          "sha1": "e579950ec2e3ccaef980acdac8c1252e72cc481a",
+          "md5": "e5c29a0cd3ec206d45072be5ea901e81"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-web-servlet-tobe-xplatform-24.1.2-sources.jar",
+          "url": "vectorx-web-servlet-tobe-xplatform-24.1.2-sources.jar",
+          "size": 1674,
+          "sha512": "7522ca8aeeef1ec92c2befe65934039bca0de0e488499f7de02aab1aa574456f9cb390a36185604c9edb5280a23a361a57731158ada47cb37656cef037d5c907",
+          "sha256": "e241a9fe7623ecf4bb369b9e1a69107d6dff5098ab3efb7ae0bfcbb29f828697",
+          "sha1": "a4858a2694f6ebffc5e586458041c5caa7d859ea",
+          "md5": "bed2bb0c00bf70ba1a72a161f6b4e72b"
+        }
+      ]
+    }
+  ]
+}

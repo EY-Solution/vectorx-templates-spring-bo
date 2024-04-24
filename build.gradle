@@ -6,7 +6,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'me.vectorx.spring.templates.bo'
+group = 'me.vectorx.templates'
 version = '1.0.0'
 
 java {
