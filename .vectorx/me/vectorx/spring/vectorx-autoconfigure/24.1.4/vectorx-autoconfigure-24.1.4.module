@@ -27,11 +27,11 @@
         {
           "name": "vectorx-autoconfigure-24.1.4.jar",
           "url": "vectorx-autoconfigure-24.1.4.jar",
-          "size": 181240,
-          "sha512": "a10e957f56612fb00533f24e6a0541f044a06f7a4953afcffa1d8d046f919e38e8c8cfe860a4a5156f13214a498d6a732c8f6439af3f563c73b6bb8bcdff99c4",
-          "sha256": "4333d377edeb078405c73b2adbf45df88e2a2ec307777b28c55a5547acd80d11",
-          "sha1": "7301f3f494924fc8f77ecb4ba56bd0a45f175d54",
-          "md5": "730356c075c53ba96aef1cae1c1c3278"
+          "size": 181378,
+          "sha512": "d9d5ad153948b3e6c0933f8bb8bccbcd4a7d31f80336b2aa87ee4f9d62bdd74ea3cadd603a9e6e16136fce5d622d6b661dcf499c83c6a3e8ef5ded8ce625fb40",
+          "sha256": "bce116b6fa6441adbc33439773af7ad33ef481246656734510929a24c17cb9a5",
+          "sha1": "88b682369c1f2efe565f6eb9ddaba3e985840fec",
+          "md5": "b3fb22bc7ccf6116b38e33cc1c581042"
         }
       ]
     },
@@ -191,11 +191,11 @@
         {
           "name": "vectorx-autoconfigure-24.1.4.jar",
           "url": "vectorx-autoconfigure-24.1.4.jar",
-          "size": 181240,
-          "sha512": "a10e957f56612fb00533f24e6a0541f044a06f7a4953afcffa1d8d046f919e38e8c8cfe860a4a5156f13214a498d6a732c8f6439af3f563c73b6bb8bcdff99c4",
-          "sha256": "4333d377edeb078405c73b2adbf45df88e2a2ec307777b28c55a5547acd80d11",
-          "sha1": "7301f3f494924fc8f77ecb4ba56bd0a45f175d54",
-          "md5": "730356c075c53ba96aef1cae1c1c3278"
+          "size": 181378,
+          "sha512": "d9d5ad153948b3e6c0933f8bb8bccbcd4a7d31f80336b2aa87ee4f9d62bdd74ea3cadd603a9e6e16136fce5d622d6b661dcf499c83c6a3e8ef5ded8ce625fb40",
+          "sha256": "bce116b6fa6441adbc33439773af7ad33ef481246656734510929a24c17cb9a5",
+          "sha1": "88b682369c1f2efe565f6eb9ddaba3e985840fec",
+          "md5": "b3fb22bc7ccf6116b38e33cc1c581042"
         }
       ]
     },
@@ -211,11 +211,11 @@
         {
           "name": "vectorx-autoconfigure-24.1.4-javadoc.jar",
           "url": "vectorx-autoconfigure-24.1.4-javadoc.jar",
-          "size": 273522,
-          "sha512": "bc1fcdcd976013749e65ce2bd5739b1e46080bbf2a77ee0386991e0529c859a6b850a972c8db10b76551a9ab22d5737416cfbb2ecd1a61585d9b4e70a7740bdc",
-          "sha256": "6deb3874f11181552ff9ae0a02f575314c7d762217a64de9136cd4d7d9ac2022",
-          "sha1": "eb680b15a05bc74434dab0aa0f7d67cbe6a31053",
-          "md5": "d24491aaf7bce5163c0f1bbaf5a1be0d"
+          "size": 273507,
+          "sha512": "3502378572a374c5a458b8013fe461d6ddf808c77b15c7d78bdb75f396c382c0c86f28ae50bc40ac58beda137bab9adcf801aa6f92c473313a3268d18aa56800",
+          "sha256": "800306f28feb7ec9307dcf0b50960c4db3dbf762b3a481e482474586030d31df",
+          "sha1": "3a00d47d02123df7258ce549069aaec14985dddf",
+          "md5": "bd16d3973ad62ff155dd499c9dd7f81f"
         }
       ]
     },
@@ -231,11 +231,11 @@
         {
           "name": "vectorx-autoconfigure-24.1.4-sources.jar",
           "url": "vectorx-autoconfigure-24.1.4-sources.jar",
-          "size": 68098,
-          "sha512": "761ca2ca045003bd5f8806afb9e23baf2824c8fe97c592d99c4262029a5e5baf3d8c64dd244534a9cb450bd28b987423ab266121dfb7e36dee33f48f100b255e",
-          "sha256": "abee07755cca0f387f8e295574df2489a68207f1b56413a453600e937b2c0d0f",
-          "sha1": "692d09e9e5ac1321a571a7290b1cc213d16ee6b9",
-          "md5": "98566452f0d67ffe26b1b8730c9526d6"
+          "size": 68162,
+          "sha512": "38f241f1a6f4e52dd7c8bc52fe7d99e96c440a68431a5db731a629beaa909363ccde7a1df066ddc527e3ebee8a51db736c073382c03b5375a6ac12fdf84d2c04",
+          "sha256": "3b96935b9712d5ff62f35d4c6d356aa7c356e8c7f26385a1b5ac77ad60bfbba5",
+          "sha1": "1441ae3c35ce2619a58da40b63029b92fd10fe60",
+          "md5": "7f04d8aee3a846aa9b5e25b082d9e4ba"
         }
       ]
     }

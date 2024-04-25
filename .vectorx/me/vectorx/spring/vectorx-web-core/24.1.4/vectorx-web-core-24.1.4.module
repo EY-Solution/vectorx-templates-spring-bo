@@ -55,10 +55,10 @@
           "name": "vectorx-web-core-24.1.4.jar",
           "url": "vectorx-web-core-24.1.4.jar",
           "size": 9984,
-          "sha512": "eeec629b8bb82dbc41b2110462e838e5addf06ed09c3d4ef60695ffdd103e7d60dbdb2a6f212cb6a80194c4dec053a4487df814a9da33ca7c60da7c61c53f77a",
-          "sha256": "b69e37c1741d3bf995b3ce1d839cfbeb55b914edb1a5d81ecef9e584e6a8b294",
-          "sha1": "ba81839dfa178c95adb7ad8a2cfdd3afcac9a0b8",
-          "md5": "00e4b79f265d33755554aa95a56e82df"
+          "sha512": "c13cb1588c693396a725bd0dbc00130aafc34fbedfd14091a7d1391103a89b9341f588e51c6f40926ccdc1b7411935a2400eea17e5838cba3128627ca0be2280",
+          "sha256": "7942819c7c1911e5c3434ab1e7c8c8911928fdf28ede9f74cd70887d8c74a430",
+          "sha1": "0cf6d89030c2b7b458e426415f318c3e192dd6d6",
+          "md5": "221df9e907b061b28f9991baf61f74f6"
         }
       ]
     },
@@ -118,10 +118,10 @@
           "name": "vectorx-web-core-24.1.4.jar",
           "url": "vectorx-web-core-24.1.4.jar",
           "size": 9984,
-          "sha512": "eeec629b8bb82dbc41b2110462e838e5addf06ed09c3d4ef60695ffdd103e7d60dbdb2a6f212cb6a80194c4dec053a4487df814a9da33ca7c60da7c61c53f77a",
-          "sha256": "b69e37c1741d3bf995b3ce1d839cfbeb55b914edb1a5d81ecef9e584e6a8b294",
-          "sha1": "ba81839dfa178c95adb7ad8a2cfdd3afcac9a0b8",
-          "md5": "00e4b79f265d33755554aa95a56e82df"
+          "sha512": "c13cb1588c693396a725bd0dbc00130aafc34fbedfd14091a7d1391103a89b9341f588e51c6f40926ccdc1b7411935a2400eea17e5838cba3128627ca0be2280",
+          "sha256": "7942819c7c1911e5c3434ab1e7c8c8911928fdf28ede9f74cd70887d8c74a430",
+          "sha1": "0cf6d89030c2b7b458e426415f318c3e192dd6d6",
+          "md5": "221df9e907b061b28f9991baf61f74f6"
         }
       ]
     },
@@ -138,10 +138,10 @@
           "name": "vectorx-web-core-24.1.4-javadoc.jar",
           "url": "vectorx-web-core-24.1.4-javadoc.jar",
           "size": 103610,
-          "sha512": "153712013e879711cb8a034aa891ef7ac4429de7e446c70950cda10b96ab14856457d5ca0077bb0c2da256f47f666489ff7b1db8669ac1c27ae09f3c713a9895",
-          "sha256": "f7f35ff052c4fb57e7f01765b0df06e929e8b0f37545558bb7a75bf79cd1a8fe",
-          "sha1": "293b2b102fc0e68557cc44a9ba489274dca0deeb",
-          "md5": "2bfeb6c0b868d450a37e849f9290f7d8"
+          "sha512": "84df0e699d3544075ccf4bf200bbb1b55a36f9b4b50ab0f7403bd1c634f49fe285b2fcd4aa3f36cc163cf2385cee6736d5c95de193dcc281b85902c66c913eee",
+          "sha256": "46493d069943f005e604a9b854bb0a804d68b29de2459f8d473f5ded26cb0b47",
+          "sha1": "f467fa47f8d3f1549060a5999a6a9938d7fc3222",
+          "md5": "95d742ef5e2d53184e50a7b1dcaa26da"
         }
       ]
     },
@@ -158,10 +158,10 @@
           "name": "vectorx-web-core-24.1.4-sources.jar",
           "url": "vectorx-web-core-24.1.4-sources.jar",
           "size": 5581,
-          "sha512": "c28195bba25e5d56eab89c7508e359a466125bbadcdc15307ba11113ebaf3264f83e2d29c29d558afcad14770004ae273bf29199dbe5511411ec3776d58f4fa8",
-          "sha256": "cc514ced57f9a94309b61eddedcf758219b9696f4c80cbf1b46e5c08d24d56c6",
-          "sha1": "f7c6ddd196c23474f096f2eb64f456aac6d9278f",
-          "md5": "f34ac91833166b04ab611fd30d486c28"
+          "sha512": "c3e6816d95ec4256c73d93fcfbaa50fb91dbee12ec6b6fc6d04f24bff2964594a7b4291a9a24d349fac4581ef8857a3189415bcc6a16527fd1b2d4fd49941a14",
+          "sha256": "417ad83f2b51b542c460c224e5c40bd71bb532dc941ba1f4960563a721511a92",
+          "sha1": "3a51c6bdaec1e294a99b2cf36f229ee19ee92e5b",
+          "md5": "d58fed0e897e47ef1a4a9f9a669e240a"
         }
       ]
     }

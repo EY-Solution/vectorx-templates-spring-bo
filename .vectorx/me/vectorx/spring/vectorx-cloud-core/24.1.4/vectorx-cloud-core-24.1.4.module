@@ -41,10 +41,10 @@
           "name": "vectorx-cloud-core-24.1.4.jar",
           "url": "vectorx-cloud-core-24.1.4.jar",
           "size": 2695,
-          "sha512": "b30933b7844976df88f071f13656e0cc826dfa5e488ba08b856ee678b1b7ae83f10dda4ff5c1cbac0721f1a43a8c5bc06174e66cb3224d265a0444d91fa83f27",
-          "sha256": "cd0658a97b54c438d0042b137a722e93c2fc6d4fdb1e6c1881b85907e59e91c3",
-          "sha1": "426cd7dd07f1afa415142080a9bfeecb347a50ee",
-          "md5": "785b3e9cfee28f98770a922bb9bcd641"
+          "sha512": "7ac79dde0894179d5879c5142626ff2d1680c4fb4de934741c43a746b7b145dc8499ed9f325661c213cb6828376897d7a586f1124ac423adc27cc6468e20abca",
+          "sha256": "02eddbbe2c73b6d421fbfed272921a3f710719ef23d7524d8b3a7a27bea588a5",
+          "sha1": "688c4fe90656ee766c48ac1bf7fbdc56acc2652d",
+          "md5": "11bfaa7bb7d40478474e0f5c6918231e"
         }
       ]
     },
@@ -90,10 +90,10 @@
           "name": "vectorx-cloud-core-24.1.4.jar",
           "url": "vectorx-cloud-core-24.1.4.jar",
           "size": 2695,
-          "sha512": "b30933b7844976df88f071f13656e0cc826dfa5e488ba08b856ee678b1b7ae83f10dda4ff5c1cbac0721f1a43a8c5bc06174e66cb3224d265a0444d91fa83f27",
-          "sha256": "cd0658a97b54c438d0042b137a722e93c2fc6d4fdb1e6c1881b85907e59e91c3",
-          "sha1": "426cd7dd07f1afa415142080a9bfeecb347a50ee",
-          "md5": "785b3e9cfee28f98770a922bb9bcd641"
+          "sha512": "7ac79dde0894179d5879c5142626ff2d1680c4fb4de934741c43a746b7b145dc8499ed9f325661c213cb6828376897d7a586f1124ac423adc27cc6468e20abca",
+          "sha256": "02eddbbe2c73b6d421fbfed272921a3f710719ef23d7524d8b3a7a27bea588a5",
+          "sha1": "688c4fe90656ee766c48ac1bf7fbdc56acc2652d",
+          "md5": "11bfaa7bb7d40478474e0f5c6918231e"
         }
       ]
     },
@@ -110,10 +110,10 @@
           "name": "vectorx-cloud-core-24.1.4-javadoc.jar",
           "url": "vectorx-cloud-core-24.1.4-javadoc.jar",
           "size": 70383,
-          "sha512": "963d36d1409b612e693d22ab90a8822500bd3e75f7302bd589435dfbd00699553d294d4d5d322493ce9fd92ff3bf8826c6b2697a8bf5e47cc6c4382a839b732d",
-          "sha256": "d8a5b47b249f9960daa643352f780401483ac3e56be7e624a666774beb82a080",
-          "sha1": "120c13d957c982a1416ed6659ffa21d5cd331533",
-          "md5": "fc27f37e8580ecf81693b7c317e730da"
+          "sha512": "3a85a508b846dd18333e1bb0bcb511b2149135641ddb1022bf246ae9a48e70f53df401669e5861410d80bd82a6882713a794c2b0440ede0e0f985f7d4265f150",
+          "sha256": "00387b30e7d698b91d8bc097a8d79c2bfa285493150a646ae7ad3057c66bc918",
+          "sha1": "cca64f345835d831110079f5b5e489e7b34364ac",
+          "md5": "2ca85dd6fad7ff0039915595f5b5a247"
         }
       ]
     },
@@ -130,10 +130,10 @@
           "name": "vectorx-cloud-core-24.1.4-sources.jar",
           "url": "vectorx-cloud-core-24.1.4-sources.jar",
           "size": 1186,
-          "sha512": "fd8cf3f649facdc7021da0e99841f955bf54d0bdb0dea7478e86730afa4baba6a309752a818a59d8e3b184dec5db28b216e8880a86a9be7a6fab416e5b7be260",
-          "sha256": "f7a3b1012c3445e92698ebf339787c84839486cdfcaff98711ea646047d2c416",
-          "sha1": "73ff9250cb747e98989b62341e0985a3458fd6ab",
-          "md5": "40a513a2897af921344210bbb975d236"
+          "sha512": "270994c7f6719a6e6a97ac107355b1deb1541e4bb848ffacf7fa68ac3cafc3663487e569156394aeb6d63cf5635624dd952562e284136b9caab391300542acf7",
+          "sha256": "a56f3ce197e85f78672342cd52a6ca80f32781d2bf140042705ce25597733bd0",
+          "sha1": "bb2f47445844553868f6b19cb3ae97eb5fd73ee2",
+          "md5": "a7bd090fad46171b652d33c9d26513b1"
         }
       ]
     }

@@ -134,10 +134,10 @@
           "name": "vectorx-security-jwt-24.1.4.jar",
           "url": "vectorx-security-jwt-24.1.4.jar",
           "size": 87345,
-          "sha512": "335caa81f68ffdf59133df8d93de86641e885d77bb5898ed75fdd25f695101669aa29558d2e967fb8042024923d2fd5b9950ebd9a32b26c934a0d508c4fde545",
-          "sha256": "6507dc59f3037a508155c6df312d982b46383a45a24fecd9ab762ec57bedcd52",
-          "sha1": "598088e239669010e4345066a85d1a8114c44ac9",
-          "md5": "1297c98076a3aadfa058f3b29759b222"
+          "sha512": "f4658b858328fb0ac8df56441b01db9f64ffc959d778084185d44906741e16c0db792ee064295340830f5e8c37550913cc6cedeccba73a7ce24f3bcdb15e3882",
+          "sha256": "5d29ecfffd687707bddca94482e079e3f4bd653b7dbd1d8341a0d189b7588cc9",
+          "sha1": "be81c6235cd77d845eea6a7be14dfadff7decc34",
+          "md5": "b83d574b392c8e544b5d20ce9ca6de66"
         }
       ]
     },
@@ -294,10 +294,10 @@
           "name": "vectorx-security-jwt-24.1.4.jar",
           "url": "vectorx-security-jwt-24.1.4.jar",
           "size": 87345,
-          "sha512": "335caa81f68ffdf59133df8d93de86641e885d77bb5898ed75fdd25f695101669aa29558d2e967fb8042024923d2fd5b9950ebd9a32b26c934a0d508c4fde545",
-          "sha256": "6507dc59f3037a508155c6df312d982b46383a45a24fecd9ab762ec57bedcd52",
-          "sha1": "598088e239669010e4345066a85d1a8114c44ac9",
-          "md5": "1297c98076a3aadfa058f3b29759b222"
+          "sha512": "f4658b858328fb0ac8df56441b01db9f64ffc959d778084185d44906741e16c0db792ee064295340830f5e8c37550913cc6cedeccba73a7ce24f3bcdb15e3882",
+          "sha256": "5d29ecfffd687707bddca94482e079e3f4bd653b7dbd1d8341a0d189b7588cc9",
+          "sha1": "be81c6235cd77d845eea6a7be14dfadff7decc34",
+          "md5": "b83d574b392c8e544b5d20ce9ca6de66"
         }
       ]
     },
@@ -314,10 +314,10 @@
           "name": "vectorx-security-jwt-24.1.4-javadoc.jar",
           "url": "vectorx-security-jwt-24.1.4-javadoc.jar",
           "size": 251671,
-          "sha512": "442f6ff9c61660a3705d470423e5b28ac6934fd549ec238d61ec9fc8675acee9087918b012f5153fbc6836fb8f40f0fccb41b2ce5e0fbe3cf3821ee5e1333598",
-          "sha256": "ac8704654cebab951c67ebaff47a4efbe0925052602df7e3ca080ff73718b3b6",
-          "sha1": "17b7e57682d1fb1a41cfb9bb38a929296275251f",
-          "md5": "6de39f373d8a1be786b0530be4579a1f"
+          "sha512": "e286df0131df25a7eac48ec88833cb48c380214ec157419a71ba781f6d8318cf41a7340cbb43f43247330d095e6665fac74649544946f8065ed01dd12844e29e",
+          "sha256": "82e77632ce27245e594fbd963bb0c81eb4ca8a9a077e8667ee7272a8432914e1",
+          "sha1": "51deef1c46e0873e4821fef816fc08598ce2c95f",
+          "md5": "eb6a69bf66f0772daf4c248f600b3e21"
         }
       ]
     },
@@ -334,10 +334,10 @@
           "name": "vectorx-security-jwt-24.1.4-sources.jar",
           "url": "vectorx-security-jwt-24.1.4-sources.jar",
           "size": 42985,
-          "sha512": "1bbf3b64033f2ba35ae58e519061d168b9a858dee52f6863d8e0ad0771f14fbfe7a5ccb224bfdac4ade6482188e693d12a15f0e4403a2bec7ad7601753029556",
-          "sha256": "a2838b9a1cd853856106fa329b3cbe7f536f383a99d16da790383df8fbfb1332",
-          "sha1": "777f1a4f2b4a87b5250551323097b6e731db2b98",
-          "md5": "c0a2142fc33a29e5bc2dae721dfd91f7"
+          "sha512": "df6b08105e5a12daaa924caa6b2f05bb24b1b76c505979c732e7392b2c43345fbb4a668fe75ba1c7cbefeb7f51f7d41482af2232baa874c28da0b465af2343ab",
+          "sha256": "8d0c57d3793ff08fd10840e7bbddf50659b282e0427f3852178c64a9535312a1",
+          "sha1": "a017fa6ae280d35a1f6058087161f2e712b62a96",
+          "md5": "9c34a6b8456b5560022dbd84b6d013c7"
         }
       ]
     }

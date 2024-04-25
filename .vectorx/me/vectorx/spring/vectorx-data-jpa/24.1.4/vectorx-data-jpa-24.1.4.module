@@ -66,10 +66,10 @@
           "name": "vectorx-data-jpa-24.1.4.jar",
           "url": "vectorx-data-jpa-24.1.4.jar",
           "size": 2691,
-          "sha512": "1f1b29c2fa90772f8a077f9ff5737cfd9da12ebf9719b4af8b9d0f1a2354050b87cf7bd52569bb5acfc267e0900d2da42b654c1600485c3ab75e8d841a073241",
-          "sha256": "2538a7b21fdad26d9e480784a452e1116219339473db06f861e1b03682075a51",
-          "sha1": "8c8c25ed07d9e0ab54089f8b3c2762ba587ce024",
-          "md5": "b2eb9c9655effbf299bb964517ded6ac"
+          "sha512": "6d048d85f41b7cdb03b9dcc8def5061bc3f22c3622963ff2d85e84e5123452e37240866bbd78c10b40b87a5fd7088db4ab93fa4f7e0e24ca1be2c917474d04ab",
+          "sha256": "c8fdd21011b97ad76198218b1ec386628135b49c104e2e0a3591f4826990add2",
+          "sha1": "3cea71bebf0eabaaec10aa783874c4232e076c1f",
+          "md5": "2be74c0f2b59ad6084c723e1d0f4bf66"
         }
       ]
     },
@@ -158,10 +158,10 @@
           "name": "vectorx-data-jpa-24.1.4.jar",
           "url": "vectorx-data-jpa-24.1.4.jar",
           "size": 2691,
-          "sha512": "1f1b29c2fa90772f8a077f9ff5737cfd9da12ebf9719b4af8b9d0f1a2354050b87cf7bd52569bb5acfc267e0900d2da42b654c1600485c3ab75e8d841a073241",
-          "sha256": "2538a7b21fdad26d9e480784a452e1116219339473db06f861e1b03682075a51",
-          "sha1": "8c8c25ed07d9e0ab54089f8b3c2762ba587ce024",
-          "md5": "b2eb9c9655effbf299bb964517ded6ac"
+          "sha512": "6d048d85f41b7cdb03b9dcc8def5061bc3f22c3622963ff2d85e84e5123452e37240866bbd78c10b40b87a5fd7088db4ab93fa4f7e0e24ca1be2c917474d04ab",
+          "sha256": "c8fdd21011b97ad76198218b1ec386628135b49c104e2e0a3591f4826990add2",
+          "sha1": "3cea71bebf0eabaaec10aa783874c4232e076c1f",
+          "md5": "2be74c0f2b59ad6084c723e1d0f4bf66"
         }
       ]
     },
@@ -178,10 +178,10 @@
           "name": "vectorx-data-jpa-24.1.4-javadoc.jar",
           "url": "vectorx-data-jpa-24.1.4-javadoc.jar",
           "size": 70340,
-          "sha512": "35e7d28eb851db481e7035b4db2cfbb48e36725c8977a6d843d7ed3d10611dc19d7d8ca9677069e9e875d27f517ac3a0429cc2a3d415753d33aef0c6a3ff261b",
-          "sha256": "9bcd79d8ba799183f3fa52779bc240c5352245f1b0f62886dc864011adbf2f46",
-          "sha1": "beba6c3456b3ebd90b784e4a6aeb567829027dc4",
-          "md5": "6c45e6bf91865ce38420b231908fdd62"
+          "sha512": "e49df46bc94e44425e6794656bcd86a37d467724c965e868ed261d8d06c7385db7d91fcb26e09f9bc0f7fc534043988b0bb80677154696361bb337633cbe4639",
+          "sha256": "5a6176b4357ca5069844446df1c09ba01e276d761fd50d4c73fc152473ab5036",
+          "sha1": "0ca9e4ab46960b785f364c7926edcdba1a7ed24e",
+          "md5": "787bf4436774baddf36466be65f468af"
         }
       ]
     },
@@ -198,10 +198,10 @@
           "name": "vectorx-data-jpa-24.1.4-sources.jar",
           "url": "vectorx-data-jpa-24.1.4-sources.jar",
           "size": 1184,
-          "sha512": "cc8a425f924b76b5a5c943110392a175df23f437d9b57da4248d274db855dee1d7e4f9b9e7ffbc911f35fbffc860402c496172c7eae55fafd2f71adb7161c149",
-          "sha256": "e8196428a71989a33958d0d571a84624ea23e25946940c4cc2f355ff07c24a1a",
-          "sha1": "96cac4397f8ad2e3a5e572d19c2bbd2c2bfd8034",
-          "md5": "1d86f5fcfaa09a74aec22b2309fe804d"
+          "sha512": "8385be022546cc97650274950f2551cc40de0b940026f72ece7367a721ebb639ff66f2e4cc36f472c13a26d36ebed7fb62ab9edbe20488a758c23a7bd23ff508",
+          "sha256": "cc7bfc1df594de2a91f8d946b21c50e7975b48b62936f00920bbc4f3aa65c764",
+          "sha1": "60783f71fadbfdd1ae89fc0371826f4eb52871a9",
+          "md5": "d5ab7b12d9a7ebeb0c9d4d9a61b574d0"
         }
       ]
     }

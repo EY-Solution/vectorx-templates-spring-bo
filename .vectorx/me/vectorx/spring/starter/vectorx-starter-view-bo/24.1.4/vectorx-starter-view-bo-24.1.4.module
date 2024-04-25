@@ -93,10 +93,10 @@
           "name": "vectorx-starter-view-bo-24.1.4.jar",
           "url": "vectorx-starter-view-bo-24.1.4.jar",
           "size": 261,
-          "sha512": "4711c19ae3298153a895748eda3edfb0dad20c978b45ff0d6e17629154031611f05cf7b61ff513b704b312a04de075115a51668dea7dcd8457a7c6cdd0c54526",
-          "sha256": "608ab68256093c96d80627272ec672d6b9467f80385be8a0591144bff40b5806",
-          "sha1": "c50f3174c8a0550bb070ac6f00e330a0167fe929",
-          "md5": "ce87f2b9641dba5dbaa3a379680a7e89"
+          "sha512": "235bb2772218a86a631af4061a7960151b90f0b7798ed5c3c4a3cf56cc16f7bae99124b5bd6c99cb3ce511a27352a8f001fe0c330bcb82d19401f8dba68ba319",
+          "sha256": "2621082bcf47d37ac51771fad7405ddf9f9db2faa3c76b1e63d6c920bfecef76",
+          "sha1": "f68ade8dfe4e813c8b5e40febb95e7938b99b190",
+          "md5": "7db47620fbaf5cdc403cb05d3e3aa503"
         }
       ]
     },
@@ -179,10 +179,10 @@
           "name": "vectorx-starter-view-bo-24.1.4.jar",
           "url": "vectorx-starter-view-bo-24.1.4.jar",
           "size": 261,
-          "sha512": "4711c19ae3298153a895748eda3edfb0dad20c978b45ff0d6e17629154031611f05cf7b61ff513b704b312a04de075115a51668dea7dcd8457a7c6cdd0c54526",
-          "sha256": "608ab68256093c96d80627272ec672d6b9467f80385be8a0591144bff40b5806",
-          "sha1": "c50f3174c8a0550bb070ac6f00e330a0167fe929",
-          "md5": "ce87f2b9641dba5dbaa3a379680a7e89"
+          "sha512": "235bb2772218a86a631af4061a7960151b90f0b7798ed5c3c4a3cf56cc16f7bae99124b5bd6c99cb3ce511a27352a8f001fe0c330bcb82d19401f8dba68ba319",
+          "sha256": "2621082bcf47d37ac51771fad7405ddf9f9db2faa3c76b1e63d6c920bfecef76",
+          "sha1": "f68ade8dfe4e813c8b5e40febb95e7938b99b190",
+          "md5": "7db47620fbaf5cdc403cb05d3e3aa503"
         }
       ]
     }

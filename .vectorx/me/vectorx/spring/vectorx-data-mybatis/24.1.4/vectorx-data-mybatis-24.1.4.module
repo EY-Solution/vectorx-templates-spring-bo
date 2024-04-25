@@ -92,10 +92,10 @@
           "name": "vectorx-data-mybatis-24.1.4.jar",
           "url": "vectorx-data-mybatis-24.1.4.jar",
           "size": 106462,
-          "sha512": "96d29101d669afda3bf093ad28c3493a9973c60c317624522c1ecfbf27dc0f7dddab6eebf3f9501dff488969a9b74b7e4107785e41f3d0497d5747eb26e1fe0e",
-          "sha256": "9e1ab769c5b3bdccdd0c49c215ca703e9ee2855335ae31f8e47bf3bbbf91b58d",
-          "sha1": "576098b0f137137feddc10aca9b7000ec1735c8f",
-          "md5": "b65ae4705c7dbeab32c42cf45121e3e1"
+          "sha512": "194044871d301df59a746dc01d4623e74c1b194c6fcec4f3dc4cd831ef9b9a70ad0be82d6525d8ca82a24db22d94d6b39f9eaa9e0a768fa6e0dac59fe05b7eb7",
+          "sha256": "79465ca608eed441d9b109196f8cab90a0426ac35e7405bba968a1166e619bcb",
+          "sha1": "fe97278b3b7dbd30c7ca2543465d3ba188e82d3f",
+          "md5": "c4f1f1799256e3aa0ebdd2988861838d"
         }
       ]
     },
@@ -210,10 +210,10 @@
           "name": "vectorx-data-mybatis-24.1.4.jar",
           "url": "vectorx-data-mybatis-24.1.4.jar",
           "size": 106462,
-          "sha512": "96d29101d669afda3bf093ad28c3493a9973c60c317624522c1ecfbf27dc0f7dddab6eebf3f9501dff488969a9b74b7e4107785e41f3d0497d5747eb26e1fe0e",
-          "sha256": "9e1ab769c5b3bdccdd0c49c215ca703e9ee2855335ae31f8e47bf3bbbf91b58d",
-          "sha1": "576098b0f137137feddc10aca9b7000ec1735c8f",
-          "md5": "b65ae4705c7dbeab32c42cf45121e3e1"
+          "sha512": "194044871d301df59a746dc01d4623e74c1b194c6fcec4f3dc4cd831ef9b9a70ad0be82d6525d8ca82a24db22d94d6b39f9eaa9e0a768fa6e0dac59fe05b7eb7",
+          "sha256": "79465ca608eed441d9b109196f8cab90a0426ac35e7405bba968a1166e619bcb",
+          "sha1": "fe97278b3b7dbd30c7ca2543465d3ba188e82d3f",
+          "md5": "c4f1f1799256e3aa0ebdd2988861838d"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "vectorx-data-mybatis-24.1.4-javadoc.jar",
           "url": "vectorx-data-mybatis-24.1.4-javadoc.jar",
           "size": 298614,
-          "sha512": "45cbddc8e49c4e8167e1a278fc1f8c85e6c0e5324aaa6d04b21f8d9fef885149a77e8814347ff607c3b5f5cff38f5a847ea09b60e64d79bb7b3280cfa9217a18",
-          "sha256": "d914b00cd4962cca786dcb8b3fef2a7ecf19f3fe09191af18192b23d457fa581",
-          "sha1": "c68d665959c18a32c29bff99cf81d82341236d82",
-          "md5": "c39ce616b50b39507eeca9e0f2954ecb"
+          "sha512": "9b1b98c47f60754fdfe8e35cf1a8147e83aedf0aada4df82a291f057702422e172dfd611b3653ac84798f1673fb255ed222bc8fa8421749185bf14d108302d66",
+          "sha256": "d707555276ddc674035f014d85288973c1b452ba93baf4253e71b65792980b65",
+          "sha1": "a8b6fe4baa06d0217f4c2f0b6eb7114b14252fa4",
+          "md5": "faa8ddec467658ca4dac2b2320dcc126"
         }
       ]
     },
@@ -250,10 +250,10 @@
           "name": "vectorx-data-mybatis-24.1.4-sources.jar",
           "url": "vectorx-data-mybatis-24.1.4-sources.jar",
           "size": 68934,
-          "sha512": "80541b6b169f0ee01a7dfa2fcff989f9d3204576201cd7e7c34a2d246cb72e7c36bc56ddfc3c90c0900c28b07c3a8e72916c66297d50d8300d0c1312a2f83377",
-          "sha256": "b35980af335064d07b292be411ec17cf93182e6615090fc2e0b0eebe0aa7b5fc",
-          "sha1": "ed19b270fe08f26ad2b9920c22dc343c3ffc5e69",
-          "md5": "464d9ed0cb1a6c3877c70d4f1e5dbef8"
+          "sha512": "9cfe4d86597601aff195d6c9ec4324000db543b20750aa31c80d1da3ff2119f8262ab4d53e49c9eaa58096b4825c60a8d72d856c566e3e448a64207b3d0b4215",
+          "sha256": "bb7963b7508de95a77277292be25023bd67febee7ec923fcc4731dba0c8f467b",
+          "sha1": "0e059250ffa8d7a27db8577e916c11fe3cd5beb2",
+          "md5": "3fdcc0bb5af4f5b700b24a5e013a981a"
         }
       ]
     }

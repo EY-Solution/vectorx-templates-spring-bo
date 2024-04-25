@@ -66,10 +66,10 @@
           "name": "vectorx-data-redis-24.1.4.jar",
           "url": "vectorx-data-redis-24.1.4.jar",
           "size": 9717,
-          "sha512": "6c45144c01101781f6928f7c26006a5063782f81515946ef9b542022f5350529bd621bc2a79ff503170b88ed6aa5ee19c12bc05ebea6dd6987d95a0c6f06b21a",
-          "sha256": "94bd1a498a5d7c6f7abd5460ca9428fe9324b82713ada51966079cff2a04e2fd",
-          "sha1": "62ecd13447b68505fbef8c6d3a4c986f6907054d",
-          "md5": "50e217f07cb51659b845c9511e215529"
+          "sha512": "dc5e903d05503d3c03eb982240e63e8ca16787270965af6614d5355b72e160b7f36c9fe38d8cc67a9893ce970dcf87fb74e6ac48b62bea3427dcf9775dc41af7",
+          "sha256": "29fa62825d13aa479c0be6464e7764aee203caaee4fca1097c3ac15d5913fca6",
+          "sha1": "9a82994f93d3a5920ecaa3d827b9af03982ccc1f",
+          "md5": "c5bad7f932b9b328904786a4377c3321"
         }
       ]
     },
@@ -158,10 +158,10 @@
           "name": "vectorx-data-redis-24.1.4.jar",
           "url": "vectorx-data-redis-24.1.4.jar",
           "size": 9717,
-          "sha512": "6c45144c01101781f6928f7c26006a5063782f81515946ef9b542022f5350529bd621bc2a79ff503170b88ed6aa5ee19c12bc05ebea6dd6987d95a0c6f06b21a",
-          "sha256": "94bd1a498a5d7c6f7abd5460ca9428fe9324b82713ada51966079cff2a04e2fd",
-          "sha1": "62ecd13447b68505fbef8c6d3a4c986f6907054d",
-          "md5": "50e217f07cb51659b845c9511e215529"
+          "sha512": "dc5e903d05503d3c03eb982240e63e8ca16787270965af6614d5355b72e160b7f36c9fe38d8cc67a9893ce970dcf87fb74e6ac48b62bea3427dcf9775dc41af7",
+          "sha256": "29fa62825d13aa479c0be6464e7764aee203caaee4fca1097c3ac15d5913fca6",
+          "sha1": "9a82994f93d3a5920ecaa3d827b9af03982ccc1f",
+          "md5": "c5bad7f932b9b328904786a4377c3321"
         }
       ]
     },
@@ -178,10 +178,10 @@
           "name": "vectorx-data-redis-24.1.4-javadoc.jar",
           "url": "vectorx-data-redis-24.1.4-javadoc.jar",
           "size": 93494,
-          "sha512": "d1d95339f6d869565b929100ce13bdbd7c396054009cb1abc11ee209d09c8e2391da3260768e27f4ba13bd85b27a256240e17ec516d19373699fc1c79851d4dd",
-          "sha256": "1e04166de7134b1ec85cb048ff83710ac5be5cae312aa21b4213ed39dec5855b",
-          "sha1": "9b207fa735d881b1a585a76be9a614c52588f461",
-          "md5": "532c732af12940670db5bdc04f6fda80"
+          "sha512": "3a150d723e30625969c9178639df594b63bf029073b85de5dc79a49d2274bbe0e4fb65ac6c14416af596cf15bba53dc07e4f470d136b495457939f8b915ea3d5",
+          "sha256": "36b14807039e166fc4738e9371bfbf45d7cf846dc727eab79224ef2e8f6ef23b",
+          "sha1": "d303ba4828445134c42fd451a952f9686b967367",
+          "md5": "abd7125614e1f3aa11aef2acc4400b5a"
         }
       ]
     },
@@ -198,10 +198,10 @@
           "name": "vectorx-data-redis-24.1.4-sources.jar",
           "url": "vectorx-data-redis-24.1.4-sources.jar",
           "size": 3360,
-          "sha512": "939f98de6070eb9f936c8b04376168897e45f09956e38d5c6ac4f4f9703662ffc8b512c0c1213c35f8d28c80d2b95a741b59670aa0ef394024ed1989ab5c839d",
-          "sha256": "ce7110262076f14a1fedc443eb447c588b93615b4dcaf6328047ef2bf2f7e4d6",
-          "sha1": "0ae5081ea561a77f835d93d0629e34b278723bf8",
-          "md5": "2a6636febe31a8cf1f65c83c7e45c0b3"
+          "sha512": "580ddb6c9e635e894a3e1f186ab9495e68775f66771e6adfa2b88a317ab0b8ac59b963f22a650e67ffbae847a39bcbd144e866d304537c93d932d26d20ceff66",
+          "sha256": "276cfa9395502a67e9d769d0536194998cba05961908cd90069292ee8c2a3a7e",
+          "sha1": "fe3dd7b92ba0472796e64b802a684fbc7a70107e",
+          "md5": "a103ae4d921a8d904d72bfaf91320d48"
         }
       ]
     }

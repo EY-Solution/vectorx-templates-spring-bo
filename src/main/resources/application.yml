@@ -11,6 +11,7 @@ vx:
       default-system-code: BO
   mvc:
     view:
+      type: STATIC_THYEMELEAF
       client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
   data:
     datasource:

@@ -28,10 +28,10 @@
           "name": "vectorx-batch-worker-24.1.4.jar",
           "url": "vectorx-batch-worker-24.1.4.jar",
           "size": 51881,
-          "sha512": "85223ffe57b173ad3deda73099820eaaa6cb151b67bfcf820f2b8207bf82fe11e75cbcba10fbe382811340969c6d840d60b3fbe90c700f11358e181c02350f62",
-          "sha256": "b9df069880824e7a70dd733bb525d58b2c29a0edae2034bbe14a918449678f8c",
-          "sha1": "f35c03cdeab780b43ddb814e5c9b061c4202318a",
-          "md5": "bc7f773d7177069eece91b00459328e2"
+          "sha512": "deefe6ed407ddc68d62423d8ce53ed3bd63baee94c0de6b79a9f8db816eab1cefb6ce400431a238e6d237440a2700ff7e7f15eb4a52fc3cb56cab54b0c738aa5",
+          "sha256": "114234eb7aee4a772750b31657f25d9ffe41144f84db15b2164048e88d078ba6",
+          "sha1": "63f17fe94f7e5942ba558b7a68a5d7da0313e0c2",
+          "md5": "7b3b4164bcb86def9ae96a9f8c4b4fb9"
         }
       ]
     },
@@ -201,10 +201,10 @@
           "name": "vectorx-batch-worker-24.1.4.jar",
           "url": "vectorx-batch-worker-24.1.4.jar",
           "size": 51881,
-          "sha512": "85223ffe57b173ad3deda73099820eaaa6cb151b67bfcf820f2b8207bf82fe11e75cbcba10fbe382811340969c6d840d60b3fbe90c700f11358e181c02350f62",
-          "sha256": "b9df069880824e7a70dd733bb525d58b2c29a0edae2034bbe14a918449678f8c",
-          "sha1": "f35c03cdeab780b43ddb814e5c9b061c4202318a",
-          "md5": "bc7f773d7177069eece91b00459328e2"
+          "sha512": "deefe6ed407ddc68d62423d8ce53ed3bd63baee94c0de6b79a9f8db816eab1cefb6ce400431a238e6d237440a2700ff7e7f15eb4a52fc3cb56cab54b0c738aa5",
+          "sha256": "114234eb7aee4a772750b31657f25d9ffe41144f84db15b2164048e88d078ba6",
+          "sha1": "63f17fe94f7e5942ba558b7a68a5d7da0313e0c2",
+          "md5": "7b3b4164bcb86def9ae96a9f8c4b4fb9"
         }
       ]
     },
@@ -221,10 +221,10 @@
           "name": "vectorx-batch-worker-24.1.4-javadoc.jar",
           "url": "vectorx-batch-worker-24.1.4-javadoc.jar",
           "size": 180005,
-          "sha512": "bc3ff3fe960718295aad85876d7097e5e7628417ea0b25d60b3b543303fed71a3c6a98f1732eef2e71693d328beca2b7c99e2a5acd695300414de74b3bd40648",
-          "sha256": "3b30b450c201b6e01800d32ab6a3e81af09cf020d127bc0872a09cb78fc38cfb",
-          "sha1": "d0b4ae7e75b6511500ba4391e9edaa500ea001e9",
-          "md5": "69ef2058b073921f34a4121cee44fe5a"
+          "sha512": "fbc32762201ec4fc7b99168357ed01fb8935a154e33d8b7255611b2bcf34ab16afd8cd66de97b80e5ea62da1372907f3aa9de468d69afe46a2449a24e45fc260",
+          "sha256": "0d986b45986567184d1fb8cf8b6ca72758e733558ce20092ff2502002949a180",
+          "sha1": "a13bf449bddb8dc5f5f7fcf33c3deb9cdc98540d",
+          "md5": "0dde81273afb252a50cc4195fdac2d1a"
         }
       ]
     },
@@ -241,10 +241,10 @@
           "name": "vectorx-batch-worker-24.1.4-sources.jar",
           "url": "vectorx-batch-worker-24.1.4-sources.jar",
           "size": 23642,
-          "sha512": "2b711d4ecfb96ddcf2d7f7dcf468ce85831717570a6f94fca2f067aa2955c8944447ba9dba9e1f3aec2357dc866f7f3862d8698efe83f2fb49bee8748e97006e",
-          "sha256": "ecf4e50c17eba8109fa08ca37027817a2f52a2d0a63e15a88c944735f3a2a7be",
-          "sha1": "03106a5e5ca7838ba60ca355a3f3b95a011590f8",
-          "md5": "a9577e17d87a3715e5a602f56de7f4fa"
+          "sha512": "3088751896adf5ea3483a38a7b2dd1f837aabb8e033c53ca29edad387815ca96b504471828aba6cb9d605c7dfcce94c95b42b886a29a79d03507203e0f8c0166",
+          "sha256": "a731f1cba45ec08ac7748fd6842959d8d08888be00adae127649089c8dc6800d",
+          "sha1": "e864e33c9aecc232889a4c1e6c78600c52c17472",
+          "md5": "7be6cc3f5863f30324bcc5e5866145ec"
         }
       ]
     }

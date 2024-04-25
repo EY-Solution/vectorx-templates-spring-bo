@@ -51,10 +51,10 @@
           "name": "vectorx-net-24.1.4.jar",
           "url": "vectorx-net-24.1.4.jar",
           "size": 29717,
-          "sha512": "694c7b6a76525b6c199baf4765d728454f516726767b274baaa1cfceefa3bd01a8a19a4b2b00d4c7a2db51fb34dad68ee26e5768f0fb1f3cd30b54e257271f90",
-          "sha256": "798675d6f8e05c932b5cab355109df579d804eca8ff7d3ef46b1f1e5afe96048",
-          "sha1": "72238084620e252527ba1bcd186f1a2b2ddc1d1a",
-          "md5": "3c1764d05fb6f76de17dea41e8d51f7d"
+          "sha512": "e5e18c5429109fe957477fa9f4747b4b1e8da98b53452934f91f8689e03678838d2ead67ad8c568d85a812ae1a4510c326f572ff191986d36688d911ccbad8df",
+          "sha256": "c9e279469d8dfc47e60564b229362b086facea8c846d4d6500a26a0adacf201a",
+          "sha1": "8c6157814423e22c9f311f85aad12d866700e589",
+          "md5": "112941c67dc67fb48298fc2f830927e6"
         }
       ]
     },
@@ -110,10 +110,10 @@
           "name": "vectorx-net-24.1.4.jar",
           "url": "vectorx-net-24.1.4.jar",
           "size": 29717,
-          "sha512": "694c7b6a76525b6c199baf4765d728454f516726767b274baaa1cfceefa3bd01a8a19a4b2b00d4c7a2db51fb34dad68ee26e5768f0fb1f3cd30b54e257271f90",
-          "sha256": "798675d6f8e05c932b5cab355109df579d804eca8ff7d3ef46b1f1e5afe96048",
-          "sha1": "72238084620e252527ba1bcd186f1a2b2ddc1d1a",
-          "md5": "3c1764d05fb6f76de17dea41e8d51f7d"
+          "sha512": "e5e18c5429109fe957477fa9f4747b4b1e8da98b53452934f91f8689e03678838d2ead67ad8c568d85a812ae1a4510c326f572ff191986d36688d911ccbad8df",
+          "sha256": "c9e279469d8dfc47e60564b229362b086facea8c846d4d6500a26a0adacf201a",
+          "sha1": "8c6157814423e22c9f311f85aad12d866700e589",
+          "md5": "112941c67dc67fb48298fc2f830927e6"
         }
       ]
     },
@@ -130,10 +130,10 @@
           "name": "vectorx-net-24.1.4-javadoc.jar",
           "url": "vectorx-net-24.1.4-javadoc.jar",
           "size": 128285,
-          "sha512": "b5b770d6027222db03dec94b1119922d241c89937456598894efa0605bdcf87c2eaae8f786dd795bcbb4a7adda4ee2d28b86dd93cc297a6672daf23a8430da5f",
-          "sha256": "0f4102b0ce66546914c55684cfd19cf96cd762612967de95caa0c3651c6e684e",
-          "sha1": "b017453d995d2ec5a3d3f179e465d80d1aefee3b",
-          "md5": "75cd5c2f8d66f30d3e6b62958b02c2bf"
+          "sha512": "fe9fe31e7224e895426f43cb7a19a9813c2f5546913ea2a624c2755b24323f7506cc9816f21117e5e747cab532a865fc846ab12e297addd82106d5f88e4ce92b",
+          "sha256": "161f6c3a2c28ba83747ca1835e21d504d29a1fdf2b75444960ab386524a33cb8",
+          "sha1": "d9de9affa55dc5ab51086e07ab5afaecf47475d9",
+          "md5": "58ee9d554d8f7f140d9f2742620e152d"
         }
       ]
     },
@@ -150,10 +150,10 @@
           "name": "vectorx-net-24.1.4-sources.jar",
           "url": "vectorx-net-24.1.4-sources.jar",
           "size": 10137,
-          "sha512": "04c398794671561e4b95e0d9d0bde7671c3b2db3a2137d7f141ef1e7032664d38afb402e25c1414210e558fd59b7a0ed4a4b3c3dee157700f5108c7f8df8f026",
-          "sha256": "165778da1519ea0098612a98ca04d54200a6cf42b11220bc65206d744ca7dfc4",
-          "sha1": "4f3dc9b79f9f410a5801b0a921e358d40e4149df",
-          "md5": "7beb45e7dd45e18f012c09d76641958e"
+          "sha512": "3e9ec06ff859721a68cfa98d63ef33653c7354053a85171d470d365ed58611e2756bb072af4b405f28c59b8aced9f73aa0ba77c28c8f2bebc740f29f194b0982",
+          "sha256": "d5c44b82f61a8f8e9b967e9a3b1968deaad818fba25de56783aa0665bff9716f",
+          "sha1": "2b7e8d8711a9d712e960fd67970b150357dff6ed",
+          "md5": "1d264bb9239b3ad2a0ff0ff258e866e8"
         }
       ]
     }

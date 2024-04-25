@@ -48,10 +48,10 @@
           "name": "vectorx-web-socket-24.1.4.jar",
           "url": "vectorx-web-socket-24.1.4.jar",
           "size": 22971,
-          "sha512": "8db1ce8de4ff105de7774d2b6f2ec787a63121c52c9dd9298831b9974af6dcea3a85fd141a720fd568653ebd76dacaad721bebdb8c78b470fdc943e0e9e741ba",
-          "sha256": "701b0e484f69fae5be5d11087a4394e547861a110bcd223d12f29129b4a8ecff",
-          "sha1": "013c5557b5e3a3d01a7cfd67395a13438201fc19",
-          "md5": "7df339d8aa3b0aa526f2c711a9579e6d"
+          "sha512": "865979ce70b7c57707ababc29e84066e69fb7636780684614c28194211ae604605391c70f94dca5dc30c94559f2ba75a458657ce3553ccf0802eb1bae3efa7d2",
+          "sha256": "f97e7bf3bfd45bcb3b65fbaf2b64220decc2ec0f4d7f7ef3cbe2bdb6411bdf9a",
+          "sha1": "306a71e18aaf76330abd0172313ffc49d54b60b3",
+          "md5": "a3452742b9d50eff0435372451a414ff"
         }
       ]
     },
@@ -104,10 +104,10 @@
           "name": "vectorx-web-socket-24.1.4.jar",
           "url": "vectorx-web-socket-24.1.4.jar",
           "size": 22971,
-          "sha512": "8db1ce8de4ff105de7774d2b6f2ec787a63121c52c9dd9298831b9974af6dcea3a85fd141a720fd568653ebd76dacaad721bebdb8c78b470fdc943e0e9e741ba",
-          "sha256": "701b0e484f69fae5be5d11087a4394e547861a110bcd223d12f29129b4a8ecff",
-          "sha1": "013c5557b5e3a3d01a7cfd67395a13438201fc19",
-          "md5": "7df339d8aa3b0aa526f2c711a9579e6d"
+          "sha512": "865979ce70b7c57707ababc29e84066e69fb7636780684614c28194211ae604605391c70f94dca5dc30c94559f2ba75a458657ce3553ccf0802eb1bae3efa7d2",
+          "sha256": "f97e7bf3bfd45bcb3b65fbaf2b64220decc2ec0f4d7f7ef3cbe2bdb6411bdf9a",
+          "sha1": "306a71e18aaf76330abd0172313ffc49d54b60b3",
+          "md5": "a3452742b9d50eff0435372451a414ff"
         }
       ]
     },
@@ -124,10 +124,10 @@
           "name": "vectorx-web-socket-24.1.4-javadoc.jar",
           "url": "vectorx-web-socket-24.1.4-javadoc.jar",
           "size": 128220,
-          "sha512": "05a1385ff3765ef63f0305a49c1f83d84c244b01a0bb6e9bfc5541f2eaccbab68250ba85054fc5ed2c844ca6f57135d2363d8e83efcd83b4554ccce62d381c1f",
-          "sha256": "3020011c29a62e6e099c6ba2f42952a7b6f8772955af729c5e615ae0d124665d",
-          "sha1": "b5bb257ed01d2a4a18fca9a436b45e19e15e9432",
-          "md5": "6e79c898716125628c3e6a8059540fcc"
+          "sha512": "7aec47f752a479cf5d5cc72bad8175eb5aad56573250711475c115f064a2de20376dd0fe964b1eaafb040859bb2d5bde52c89fe59aa31494d495cae1d6842a33",
+          "sha256": "f498cc070ead3c74fa895bc65b2edb30c38e726e05ec440e57eb02fca4608d06",
+          "sha1": "0d1f3ed34c0c0cf146d2360a801f45ee9df986d4",
+          "md5": "ee0df5eb57f91833a7a0e6877da0ddfc"
         }
       ]
     },
@@ -144,10 +144,10 @@
           "name": "vectorx-web-socket-24.1.4-sources.jar",
           "url": "vectorx-web-socket-24.1.4-sources.jar",
           "size": 11406,
-          "sha512": "9a965d0878c3257b79e389fdf0b17b4b039befcfa314f788a813fa4d81cf9a813033b277e56b3aeb55d7b0c22882a356197656d4334285c174acfdf677e2bcad",
-          "sha256": "f8bf9c5a577b1d7e115c67911c414e7cce82e1987ea30386b87c449e97fd5dbf",
-          "sha1": "eda18549d4ec3bc3cdb9bbe97731d5405dc26dca",
-          "md5": "8bde9417a7fb636dd832a7625990dead"
+          "sha512": "69b1b86395d619ef93601b67a586ee6ce08597e76a03d5e703f9f6ae9e323157db703fd7bc6edc84bd9d1f74e59dd776b52c467a5a9306791d81cea75834c39d",
+          "sha256": "b5bafba8ce7cbee5786839c52a23800da4e18415f6c88690ad41edda9053ba6d",
+          "sha1": "eee12cec963baeee4a156da2a5d6a57db902af59",
+          "md5": "8b3b117682933e8addba2a2771b03e59"
         }
       ]
     }

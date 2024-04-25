@@ -44,10 +44,10 @@
           "name": "vectorx-cloud-aws-24.1.4.jar",
           "url": "vectorx-cloud-aws-24.1.4.jar",
           "size": 2750,
-          "sha512": "701f0d2c5c8614e976a67b6f91eb10dae66291b3fc71dae89a19ad20efd36a8320d8958a132ce697ad4d9d1737e9321d5b803fd72eb009be441b5bea0390d1ba",
-          "sha256": "6a4699878ea769a9fa5a68cdb4ff2f6f4ebcfd75d682e5aaed41c6cd05ba1137",
-          "sha1": "1350bba9f3f80738ef342a0fd1b300e08ab5358e",
-          "md5": "6b5f658c46a0e7148eaf67f0cfd354be"
+          "sha512": "3701d3b79530e24d0651d03e4ff740ba7e687ac505b60188352aedd007b8a749efd2019a6febfbdb467fbc3035349f999df016d2d5643d117a0da2615a9b0291",
+          "sha256": "8b3a68be44fa7f581456dbf2219233c2403b6573c29fbc3a243a75f98bd4db7a",
+          "sha1": "98fe00e89293c5fc2324887d76503ad896dc5c8e",
+          "md5": "ec64b35743b81f39a1465cd53cc6df5a"
         }
       ]
     },
@@ -96,10 +96,10 @@
           "name": "vectorx-cloud-aws-24.1.4.jar",
           "url": "vectorx-cloud-aws-24.1.4.jar",
           "size": 2750,
-          "sha512": "701f0d2c5c8614e976a67b6f91eb10dae66291b3fc71dae89a19ad20efd36a8320d8958a132ce697ad4d9d1737e9321d5b803fd72eb009be441b5bea0390d1ba",
-          "sha256": "6a4699878ea769a9fa5a68cdb4ff2f6f4ebcfd75d682e5aaed41c6cd05ba1137",
-          "sha1": "1350bba9f3f80738ef342a0fd1b300e08ab5358e",
-          "md5": "6b5f658c46a0e7148eaf67f0cfd354be"
+          "sha512": "3701d3b79530e24d0651d03e4ff740ba7e687ac505b60188352aedd007b8a749efd2019a6febfbdb467fbc3035349f999df016d2d5643d117a0da2615a9b0291",
+          "sha256": "8b3a68be44fa7f581456dbf2219233c2403b6573c29fbc3a243a75f98bd4db7a",
+          "sha1": "98fe00e89293c5fc2324887d76503ad896dc5c8e",
+          "md5": "ec64b35743b81f39a1465cd53cc6df5a"
         }
       ]
     },
@@ -116,10 +116,10 @@
           "name": "vectorx-cloud-aws-24.1.4-javadoc.jar",
           "url": "vectorx-cloud-aws-24.1.4-javadoc.jar",
           "size": 70365,
-          "sha512": "1ed617dd66409fd63b390d9ab1595c0188fccff27498bc8b1039bc225ee7854db6cc64d4bc4baad170463a6bb1ba555d1de9ccdf6641539e82d3393566f3a93d",
-          "sha256": "5ad02108a90903edc7d3cc48425ec7b18552b3ad1deffd0a737983f302108bc7",
-          "sha1": "34ebfce52c611cad5a7610819a3c9c03a88c087b",
-          "md5": "5069a4bc84adffaca4d3af106c7a345c"
+          "sha512": "fcac840c668ab837e2e5be006c2ef9603201c31dd213eec0cfc2a2a3640823aa860db3e620fd6d7e127783e416605daf5c5b8ba72ec2ff3ee5e738ec4760fe3a",
+          "sha256": "98f56426305b3244ee043e6f785e95e1e09d970551e1425a9a94679214135632",
+          "sha1": "8adb5a44c48662c62085010a463118a29406aeca",
+          "md5": "47f3c7bfbc0166866b3ea95353cf447f"
         }
       ]
     },
@@ -136,10 +136,10 @@
           "name": "vectorx-cloud-aws-24.1.4-sources.jar",
           "url": "vectorx-cloud-aws-24.1.4-sources.jar",
           "size": 1228,
-          "sha512": "306d4e43206c08adc0c46da0c7b5ed7590c2a4a2eb2eaff199d78bf06b82ef2277f4d05eb6570b0a7b4cbe11d64c2fb8cd0f9fd766ce47d5d818f2011bca6559",
-          "sha256": "3c89a24ee7f2d0e142546480785340ffdc2b3f3bd9cacfadc87e2cbedd74014e",
-          "sha1": "6205a2a10c30f16a99b03e6d99b4c29ebbc32813",
-          "md5": "324ded6dd8d2871d9dc5d2b531754c29"
+          "sha512": "b434ac2e2e785f41fa363a23f74559c0de275bce15b4d500e5877edb5dab75967e0acdef4b45a0626a219d95f2844f010871920d86ddf97b05622da78a33bfa7",
+          "sha256": "4980ea7b40282643c680bdd96918fd1bd92738fca32f6c8bffacaf3dd8c0a94c",
+          "sha1": "34ab90ac5164af5923224ace6ce77fe203e2bbba",
+          "md5": "6de196a108a95f150730c7431f69b8e6"
         }
       ]
     }

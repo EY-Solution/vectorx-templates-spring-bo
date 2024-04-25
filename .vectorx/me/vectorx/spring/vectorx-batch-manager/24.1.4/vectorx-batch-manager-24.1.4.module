@@ -28,10 +28,10 @@
           "name": "vectorx-batch-manager-24.1.4.jar",
           "url": "vectorx-batch-manager-24.1.4.jar",
           "size": 45153,
-          "sha512": "aa6d14768995249cb0c76f1c451354416acc9de293dc82504d8a50ac715a9508033ed86855d94778eec0fdf04169c4b9715f514985d84068b453cbee71258b81",
-          "sha256": "eaf0b5dbe5641f5752228debfc76995cdadb386a2f95fb6ceacb544106f527d6",
-          "sha1": "5bf0cdb54450045a1f26cac82dad666a16a86022",
-          "md5": "3007625177e3439590e0ed7516695c8e"
+          "sha512": "74b527b577b8c74ccbf7d7e88443aa2bce3c825e0b4e138b5c7fe309ded49d734783037e87f66d96fae51b5b5a5efeceffcc20704b1acdce56770ed467ddc8bf",
+          "sha256": "827de4291cde9daee86424b542b5e5b2e9a919fd6db16228e88315cc002c78f2",
+          "sha1": "8abec7c02f4917cd0a098e4f34ae6ef613593e10",
+          "md5": "20798ead50709ee4c798dcaef302da88"
         }
       ]
     },
@@ -201,10 +201,10 @@
           "name": "vectorx-batch-manager-24.1.4.jar",
           "url": "vectorx-batch-manager-24.1.4.jar",
           "size": 45153,
-          "sha512": "aa6d14768995249cb0c76f1c451354416acc9de293dc82504d8a50ac715a9508033ed86855d94778eec0fdf04169c4b9715f514985d84068b453cbee71258b81",
-          "sha256": "eaf0b5dbe5641f5752228debfc76995cdadb386a2f95fb6ceacb544106f527d6",
-          "sha1": "5bf0cdb54450045a1f26cac82dad666a16a86022",
-          "md5": "3007625177e3439590e0ed7516695c8e"
+          "sha512": "74b527b577b8c74ccbf7d7e88443aa2bce3c825e0b4e138b5c7fe309ded49d734783037e87f66d96fae51b5b5a5efeceffcc20704b1acdce56770ed467ddc8bf",
+          "sha256": "827de4291cde9daee86424b542b5e5b2e9a919fd6db16228e88315cc002c78f2",
+          "sha1": "8abec7c02f4917cd0a098e4f34ae6ef613593e10",
+          "md5": "20798ead50709ee4c798dcaef302da88"
         }
       ]
     },
@@ -221,10 +221,10 @@
           "name": "vectorx-batch-manager-24.1.4-javadoc.jar",
           "url": "vectorx-batch-manager-24.1.4-javadoc.jar",
           "size": 139217,
-          "sha512": "38ee3e583a7d903dfda0e55ae8a911c59284d8a1528f7dbb2a80cc3a6020239de762ecfc88d7b28226943b3def4e5e56fe245347aecc3299290780379d16f857",
-          "sha256": "3e184df8697fa15ce06fd114d1b1fced7398a8fe84ff7d4bb837bbd1119d352d",
-          "sha1": "36063b7d3840da823080836c22032399594defbd",
-          "md5": "707f818edd78c66107d55822758adfd7"
+          "sha512": "6f0ed0e1b9390d3cdcbe78b843f9a951bcec3f60d7883bcf79335cb91d41fb045beb8538525752d07b333625ccbee051a44665b3859e074d679b8859f28c4816",
+          "sha256": "06bbd4eb7bc9822ff01d6b21fefc66b3356280abd89cf58c3126cc13873de41c",
+          "sha1": "5e63e881595a31fb8d3409550913f34a803aa75a",
+          "md5": "a364f81644248904670217420840d7f1"
         }
       ]
     },
@@ -241,10 +241,10 @@
           "name": "vectorx-batch-manager-24.1.4-sources.jar",
           "url": "vectorx-batch-manager-24.1.4-sources.jar",
           "size": 20387,
-          "sha512": "f1ab941b92b3742f2cbe0ee70bdedee3171dc34e2f66becdac654110c2913fd88f5e2c9104228cb71d58f81604a0e7022529fe0fca546f30dd6b5f9528bf4171",
-          "sha256": "862c6477d09e77e50d8d67049d5f37ed00cf6bce0d4334d56f69b1c0e75ba34c",
-          "sha1": "2ee0839db2af63b6768765493d9e0201dd69ea59",
-          "md5": "826f520c30562b4b47c09de7532ab824"
+          "sha512": "b9d6ef218a1e813424f3ebb91b0bc5ab946433af8ed5678c673852767ef25917e51dfba59b916da794d2da2e17335fcbad27a3698ba3adcddfbc494b3111a73f",
+          "sha256": "d76cc65c51ebf23a7135f1d54062fff8f9506c5394d4647693f1b494210f6efe",
+          "sha1": "11f4bea161e9d1239c2ad38668d38134cf4fed2b",
+          "md5": "4fe33358965b5b80fbda4b6116832065"
         }
       ]
     }

@@ -134,10 +134,10 @@
           "name": "vectorx-web-servlet-tobe-xplatform-24.1.4.jar",
           "url": "vectorx-web-servlet-tobe-xplatform-24.1.4.jar",
           "size": 3327,
-          "sha512": "000201a18fc0addca113c04c24f0ac22502cd184d3af0d75dfa9b89ae7ea66c6b00bc70ab30657f2a3c8c5bcc7e8e7b048da2940b02931c9f3b5b4f3d0e68e5a",
-          "sha256": "3c7e1386b55dbff1fa356d467a107289cf732506b72e1cc6ae02ba19bd0c9b80",
-          "sha1": "ff81aa7914dd16f6cdaebdb185f8ad2ce4b758b1",
-          "md5": "9cdd60d8adf72f4001795a12d1a5df3e"
+          "sha512": "6182becdd125826d4f853a0d320913c10754c54d8e5b42e482cc5393e888793e399b210ec0752f2a26772ecaeaea0370ce28920669605ac56c49e8b7c56b8e67",
+          "sha256": "1025fb34b1ceb1420b5866438086978312cb0bb4fedb8921a59a6c3ee24e1640",
+          "sha1": "1eead4fea85c3417f5f378190203068edd19dedd",
+          "md5": "bc2c258468e47f62e445ab3bb720d77b"
         }
       ]
     },
@@ -294,10 +294,10 @@
           "name": "vectorx-web-servlet-tobe-xplatform-24.1.4.jar",
           "url": "vectorx-web-servlet-tobe-xplatform-24.1.4.jar",
           "size": 3327,
-          "sha512": "000201a18fc0addca113c04c24f0ac22502cd184d3af0d75dfa9b89ae7ea66c6b00bc70ab30657f2a3c8c5bcc7e8e7b048da2940b02931c9f3b5b4f3d0e68e5a",
-          "sha256": "3c7e1386b55dbff1fa356d467a107289cf732506b72e1cc6ae02ba19bd0c9b80",
-          "sha1": "ff81aa7914dd16f6cdaebdb185f8ad2ce4b758b1",
-          "md5": "9cdd60d8adf72f4001795a12d1a5df3e"
+          "sha512": "6182becdd125826d4f853a0d320913c10754c54d8e5b42e482cc5393e888793e399b210ec0752f2a26772ecaeaea0370ce28920669605ac56c49e8b7c56b8e67",
+          "sha256": "1025fb34b1ceb1420b5866438086978312cb0bb4fedb8921a59a6c3ee24e1640",
+          "sha1": "1eead4fea85c3417f5f378190203068edd19dedd",
+          "md5": "bc2c258468e47f62e445ab3bb720d77b"
         }
       ]
     },
@@ -314,10 +314,10 @@
           "name": "vectorx-web-servlet-tobe-xplatform-24.1.4-javadoc.jar",
           "url": "vectorx-web-servlet-tobe-xplatform-24.1.4-javadoc.jar",
           "size": 70857,
-          "sha512": "4e72f952520080aad3f6b940ac083c60a211a12f44cedc4860f396eef417cb6851a57239e03c7227cc8aeb0dfcfe7e7ae32e07325297cc40d63c7051ab6abd8a",
-          "sha256": "ec31b53d06e04c7228df07eba7dea05d8d657b1697e997b68ed18b4e08e51c36",
-          "sha1": "4a7c9ec8f2c8d73a4c7ab4a5e0f67267a6992a5a",
-          "md5": "d3d298843f29892b8d70dc400dd93275"
+          "sha512": "a25740318903732f7cddf9ac9e31a68bd516651644268b0b9bfdcfda1d527f6c2f18aba354bb7518a3bb5ec536d66f4c629d5c88a35559feb00735c13d8c973b",
+          "sha256": "d196c9ea672f966588ec797f37d41cc9d97e0322488dfa46dfe8ec3529066293",
+          "sha1": "0bb50afba61f3ecc7efb89c45ac2833a2462550c",
+          "md5": "df38db912b3896d0e427ee0db6dcc4e9"
         }
       ]
     },
@@ -334,10 +334,10 @@
           "name": "vectorx-web-servlet-tobe-xplatform-24.1.4-sources.jar",
           "url": "vectorx-web-servlet-tobe-xplatform-24.1.4-sources.jar",
           "size": 1674,
-          "sha512": "459b75586a173b2a43e729b3053f09599e82122424970d4e75953f6acadfaabbd7b7c17a4f68f23ef090e2c4c0c83fdf645addc798ba19bbf890abcf5036aaa6",
-          "sha256": "d528ab0cd719b34a1fbcaa53f3aeff676ce738d2bedfffde5bb076a3084984b5",
-          "sha1": "5559fb5ebae23ac6af6d7de57d76f916bb75ceee",
-          "md5": "c894dcae64567a342c4082071a400834"
+          "sha512": "d0a5f96fd2d005ea9ada08e35a3dce774430e283518dfaa0a0009db89c7560363bfc7ed598878314719dbd11afa9f793a951fd8c2031a606b80c2798633cc243",
+          "sha256": "86e102946f5346bb49e01abc5f14528633243e812d94c9ae660e73d6af0af962",
+          "sha1": "6c06e298f83c13636f805b91c4dffcd2ad78fdc6",
+          "md5": "96bc3a60b068eabd4a70f9e63dcdd1b9"
         }
       ]
     }

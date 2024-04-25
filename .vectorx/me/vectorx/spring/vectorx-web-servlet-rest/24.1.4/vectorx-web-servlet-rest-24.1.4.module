@@ -101,11 +101,11 @@
         {
           "name": "vectorx-web-servlet-rest-24.1.4.jar",
           "url": "vectorx-web-servlet-rest-24.1.4.jar",
-          "size": 45045,
-          "sha512": "716f8c8f35d9a63b9e44f97f4057b74252bfbb05559c2aeb031caf3b3c5b1cce587f967be31aebf2efb907bd95d225a03cfdf6157feb76e7a2f46ddcefda612b",
-          "sha256": "57c728c0351e0a71250b2966a128dd7799eb5a172d92f322ca42813e05429882",
-          "sha1": "77c09b514d3c4a666aebd7b0bc7becd1634de7b1",
-          "md5": "2376dd383ba8b5f7cc26addcd9defc3c"
+          "size": 45090,
+          "sha512": "c857eb7b408e16946ca637e519af01d3f77477075af3d287af1467809ad443eb55b1a5fc73f47491c1cba2bec6b34e80841bbe23f3e208080cc5bc814caf4142",
+          "sha256": "8b9224f738b211cfd740054bb462242810d8ba01932f8361885942e4b48d905e",
+          "sha1": "aa65f07e08da971717ed031910c72f333f7a2fe0",
+          "md5": "bc352f770127d4a9e60a1bf8caca0745"
         }
       ]
     },
@@ -229,11 +229,11 @@
         {
           "name": "vectorx-web-servlet-rest-24.1.4.jar",
           "url": "vectorx-web-servlet-rest-24.1.4.jar",
-          "size": 45045,
-          "sha512": "716f8c8f35d9a63b9e44f97f4057b74252bfbb05559c2aeb031caf3b3c5b1cce587f967be31aebf2efb907bd95d225a03cfdf6157feb76e7a2f46ddcefda612b",
-          "sha256": "57c728c0351e0a71250b2966a128dd7799eb5a172d92f322ca42813e05429882",
-          "sha1": "77c09b514d3c4a666aebd7b0bc7becd1634de7b1",
-          "md5": "2376dd383ba8b5f7cc26addcd9defc3c"
+          "size": 45090,
+          "sha512": "c857eb7b408e16946ca637e519af01d3f77477075af3d287af1467809ad443eb55b1a5fc73f47491c1cba2bec6b34e80841bbe23f3e208080cc5bc814caf4142",
+          "sha256": "8b9224f738b211cfd740054bb462242810d8ba01932f8361885942e4b48d905e",
+          "sha1": "aa65f07e08da971717ed031910c72f333f7a2fe0",
+          "md5": "bc352f770127d4a9e60a1bf8caca0745"
         }
       ]
     },
@@ -249,11 +249,11 @@
         {
           "name": "vectorx-web-servlet-rest-24.1.4-javadoc.jar",
           "url": "vectorx-web-servlet-rest-24.1.4-javadoc.jar",
-          "size": 175783,
-          "sha512": "83854444c5449b16e7f5713d77f31f75de9e5fd64e2cd250cf19a2cf450f85920b9a0dfa089c30b0a46c62469b7a6f529218c1611c9298d9c9b4b81da84b9bfb",
-          "sha256": "09ead20055d3cc0886bb97f8b665b6e820d9ead877a2caa17504d981c54a7e07",
-          "sha1": "e5f6a832183d5a459c3d5df86fadca2ef4ecade5",
-          "md5": "d625ec9d14ebb411ce212b79f3bd2e31"
+          "size": 175850,
+          "sha512": "515b8016bdaba6e8f4e61cf73e0d751cc56d7736312d0a624daa1fde6354c4854bfd636504bf4af98603ee9ffeb9434772da6e8523bc70a8790cae4f578aa0b9",
+          "sha256": "b580958a30e591d76fa1a7940ecdb892a739fe5c10d2190d7c00ae3a2b6ccfc1",
+          "sha1": "7044c3192b55a35ec952dda6bd7b7853d28381c5",
+          "md5": "8abc4a2076dfe3baa986fb69e0bd1ae7"
         }
       ]
     },
@@ -269,11 +269,11 @@
         {
           "name": "vectorx-web-servlet-rest-24.1.4-sources.jar",
           "url": "vectorx-web-servlet-rest-24.1.4-sources.jar",
-          "size": 23336,
-          "sha512": "13f61ecd05e8cc85794bf4bd789801e2693a732295581433eb426a53f8b2e362c1946f922219dc3de3c0a9e5dfddd7a4f98ba6039529cf312ab0e57c8cfd8f7c",
-          "sha256": "6061c8a7a92d921af76cb6ec2d01ebf6ae17a59da405bfbcd98385ccc950d83b",
-          "sha1": "415337d66140c22b8caccd1ae93f13b51e208b02",
-          "md5": "250c5e7753b48d3b97691b98bf913e23"
+          "size": 23382,
+          "sha512": "14902d68290e9afa2c5a6ccf2f54b840488e418a160f4d0d9d951a6bad0f06722bacce0a43075bd5bc6a8fa40dcdef27a6f4e6993d3d700aeb70e639e0708ee8",
+          "sha256": "38ef8037916bc6e07272fee805efa8d2bd8d7095a620e8c2956d6a9940bf07fa",
+          "sha1": "6e32be3db39a52d6be80a266410cc80767fc7aa1",
+          "md5": "0aa9203ce8fe7e261fce33eb06e7f48e"
         }
       ]
     }

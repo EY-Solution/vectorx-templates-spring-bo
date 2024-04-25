@@ -19,7 +19,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import me.vectorx.spring.templates.bo.samples.code.dto.VxSampleAddReqDto;
 
-@Api(tags = "VectorX 샘플 코드 API")
+@Api(tags = "VectorX 샘플 코드 API", produces = "application/json")
 @RestController
 @RequestMapping("/api/samples/code")
 public class VxSampleCodeController {

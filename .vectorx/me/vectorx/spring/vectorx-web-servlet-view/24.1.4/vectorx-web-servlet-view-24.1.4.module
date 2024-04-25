@@ -78,11 +78,11 @@
         {
           "name": "vectorx-web-servlet-view-24.1.4.jar",
           "url": "vectorx-web-servlet-view-24.1.4.jar",
-          "size": 19208,
-          "sha512": "16053db2dc607b4a320f57fbd828e85beefddaec5f6f49dfe5306e225a86e61df9421093109624b455dc3d8156e6dd1ef76f0207de3f9bbcaa6fea579f7f21cb",
-          "sha256": "a55ff4de5ee37a5b467660db24b852cbb9d97b14fa14bd756fe1160c21fb812c",
-          "sha1": "dc2807d006f5483a162e0b5684310376f521c403",
-          "md5": "c0b1b4800a1b8d250d7c821a37ee7cb2"
+          "size": 21025,
+          "sha512": "ce0b960bf4562b33c96df02e43fd9f901f9e5787978ea4cd554961e7a20f6a6f5bcd136ef0558f98526d495953c147f5aebda8cca494d2a5784667ed251d6f6e",
+          "sha256": "c43a7d2df35ac8897854635a76db6d6656e0cf014716460e5b3af3a6fd2ae71c",
+          "sha1": "38e2b2c7c8f6a515271bfb4577dbb43fcf6d7676",
+          "md5": "9149bc9d20296ab36339cf4e4843ba3d"
         }
       ]
     },
@@ -183,11 +183,11 @@
         {
           "name": "vectorx-web-servlet-view-24.1.4.jar",
           "url": "vectorx-web-servlet-view-24.1.4.jar",
-          "size": 19208,
-          "sha512": "16053db2dc607b4a320f57fbd828e85beefddaec5f6f49dfe5306e225a86e61df9421093109624b455dc3d8156e6dd1ef76f0207de3f9bbcaa6fea579f7f21cb",
-          "sha256": "a55ff4de5ee37a5b467660db24b852cbb9d97b14fa14bd756fe1160c21fb812c",
-          "sha1": "dc2807d006f5483a162e0b5684310376f521c403",
-          "md5": "c0b1b4800a1b8d250d7c821a37ee7cb2"
+          "size": 21025,
+          "sha512": "ce0b960bf4562b33c96df02e43fd9f901f9e5787978ea4cd554961e7a20f6a6f5bcd136ef0558f98526d495953c147f5aebda8cca494d2a5784667ed251d6f6e",
+          "sha256": "c43a7d2df35ac8897854635a76db6d6656e0cf014716460e5b3af3a6fd2ae71c",
+          "sha1": "38e2b2c7c8f6a515271bfb4577dbb43fcf6d7676",
+          "md5": "9149bc9d20296ab36339cf4e4843ba3d"
         }
       ]
     },
@@ -203,11 +203,11 @@
         {
           "name": "vectorx-web-servlet-view-24.1.4-javadoc.jar",
           "url": "vectorx-web-servlet-view-24.1.4-javadoc.jar",
-          "size": 132219,
-          "sha512": "590a790a567aa78b65e807aad9e28499d6ad536ab133dfc4e4574bc2df02d12501e50b6e9ffef3b01e72086e6226223f4e4696f91aae0e4c36f1667c24a62aae",
-          "sha256": "564705b3f4f9a9e6b553c11304b1be0aa19ad3c299ca7b70ddeb562d79f23342",
-          "sha1": "66bb493043eff25d25156ec349f900a47924f0b9",
-          "md5": "763e86fbd8b6fcfdd964550ae8d6721a"
+          "size": 134636,
+          "sha512": "35fbd1137bc59517fcee5d66cd57ed1c3a4ada61f439d7c26cf0437d20cfc60a719a6b30d16504133e17ffc3094ef2977f3fd5d9b8209ea505b5ce40956bfcc9",
+          "sha256": "2167bbbe46a93f929b8fd9d4a7135d57a40a59d1696586852adf13395a1e0a02",
+          "sha1": "67f16a728efcb13b2fd7dc8fe3688681c250401b",
+          "md5": "ed3c02759ded942a36f13e72fbd6110a"
         }
       ]
     },
@@ -223,11 +223,11 @@
         {
           "name": "vectorx-web-servlet-view-24.1.4-sources.jar",
           "url": "vectorx-web-servlet-view-24.1.4-sources.jar",
-          "size": 11247,
-          "sha512": "353085852ee1279a33f4188640437d650c8694fa83bb2808213fd54d6cd718fc649dc61373a144b45343357bde6e7e053d8500f0b328059da3c13b7fe63966dd",
-          "sha256": "367ac788da3b161ba2864873994c8f1a3d80f408881f73deb6823e45d3a9a3c1",
-          "sha1": "05706ec83fe81dc7f18d322cd5ac6057a77cc5c7",
-          "md5": "82d5b3c0d155f2f22c71dda771c06763"
+          "size": 11406,
+          "sha512": "1a09a114a456c4ac5522b5eafa39b63add47259b2509ce66680e1142537cf004adb25ce8a4115cfef4618a0ba1948b3477b9a4d8c966079c695c673930e3ce58",
+          "sha256": "9777d39e1c506c55ef3eed3fd6a1123e4b809f9fe10fd43c5a125d1b5245ba61",
+          "sha1": "552c323805e00f0b57a8067b6ffb184198270cf8",
+          "md5": "abf061aaca7b2cfe580be2792424fce2"
         }
       ]
     }

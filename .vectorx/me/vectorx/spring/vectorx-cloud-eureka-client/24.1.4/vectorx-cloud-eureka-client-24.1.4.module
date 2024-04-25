@@ -101,10 +101,10 @@
           "name": "vectorx-cloud-eureka-client-24.1.4.jar",
           "url": "vectorx-cloud-eureka-client-24.1.4.jar",
           "size": 3037,
-          "sha512": "72817ae16b187cfd0e301357c6b2a7f00b99469e7748b8512e932e24a600bb9d91267441c91d438f81bf5bd5238b434e8131f2ad8ae96660c5f75b1462d64366",
-          "sha256": "3c725b2a0b5b63ca6a75b630595e08c3231bb360d61004a1547a713fd94d1dfe",
-          "sha1": "2f5b3f7050584f1f0905bf5dfad04d5492c937fd",
-          "md5": "daa0b640bfb1d6a84ab5d2396dac4dd6"
+          "sha512": "5864520cb2a8f1cbf43db296da4296739c75427aff835b7d1b119f167e25ac8e84908faf9025d998cfc3af427730c74cb5cbf560ad5c1cc2952e6cd062e574a0",
+          "sha256": "628558e9b83d9e1e2367408ed305dcd4ee458b9594a6f33ed164666b962d7d9f",
+          "sha1": "0b8b9773de1ec17b368979db1fda5769b2786274",
+          "md5": "cd1f9ad37c25ba22de65fdfa4db488fc"
         }
       ]
     },
@@ -300,10 +300,10 @@
           "name": "vectorx-cloud-eureka-client-24.1.4.jar",
           "url": "vectorx-cloud-eureka-client-24.1.4.jar",
           "size": 3037,
-          "sha512": "72817ae16b187cfd0e301357c6b2a7f00b99469e7748b8512e932e24a600bb9d91267441c91d438f81bf5bd5238b434e8131f2ad8ae96660c5f75b1462d64366",
-          "sha256": "3c725b2a0b5b63ca6a75b630595e08c3231bb360d61004a1547a713fd94d1dfe",
-          "sha1": "2f5b3f7050584f1f0905bf5dfad04d5492c937fd",
-          "md5": "daa0b640bfb1d6a84ab5d2396dac4dd6"
+          "sha512": "5864520cb2a8f1cbf43db296da4296739c75427aff835b7d1b119f167e25ac8e84908faf9025d998cfc3af427730c74cb5cbf560ad5c1cc2952e6cd062e574a0",
+          "sha256": "628558e9b83d9e1e2367408ed305dcd4ee458b9594a6f33ed164666b962d7d9f",
+          "sha1": "0b8b9773de1ec17b368979db1fda5769b2786274",
+          "md5": "cd1f9ad37c25ba22de65fdfa4db488fc"
         }
       ]
     },
@@ -320,10 +320,10 @@
           "name": "vectorx-cloud-eureka-client-24.1.4-javadoc.jar",
           "url": "vectorx-cloud-eureka-client-24.1.4-javadoc.jar",
           "size": 70758,
-          "sha512": "55843d81215a87eadf4b78e99292421e81e8830092e23122bc500bcdcd4630c8efed2fb7a1c25391ea171056b9d1a3dde9d481087f58e209d060f225afac08a5",
-          "sha256": "ccb955e6df1a77aac44bc56839d5b9aeb4430b3ea57da659d16b8b3887e95038",
-          "sha1": "3f1ae851d8527286f01e1ebc27e417386c1ed6c3",
-          "md5": "536cb9111690ddf8c197838ae872d25c"
+          "sha512": "3232d079c3ce2d097b233ef494396413ac67cb208525db288d1d75043c2654e6104515f1f564bc7c15232921a661f7e15557572cc45f632fe745d7673fdccc57",
+          "sha256": "20d6e03737e00950bfed9f4780312c99dc5c2ada827b086980123ab9f02e8dac",
+          "sha1": "dfac85cb4b229847623c4d0ce02246b3510aae0f",
+          "md5": "d863e23f5b38d769caaaa6be212f1dd1"
         }
       ]
     },
@@ -340,10 +340,10 @@
           "name": "vectorx-cloud-eureka-client-24.1.4-sources.jar",
           "url": "vectorx-cloud-eureka-client-24.1.4-sources.jar",
           "size": 1473,
-          "sha512": "402ed6695aa2692224f33410de20ace57ba70d8f19e96e5c399ba1f19c46177846cf7589d40344f2e24fcbd3ac8122cabfe5e547f91a3b3af13a2386ab507a41",
-          "sha256": "d8ea74e026a4d1a317ab9ce55a376a50285354472e931d3906dd69a7f4738a5b",
-          "sha1": "253993ebcce2a123c341ec2586dc3e0240e6f7cd",
-          "md5": "23d7975953ffe41036b56ddba473fa5e"
+          "sha512": "5987f7496e0e1961329b4d04487d03ef38690978ae5a705d4a1d2a60493d8496efda4956769d26bfdb015f5f120e66b97537632d49df3b10fa772a78f7979a1c",
+          "sha256": "3b2369c53e30488a503d63cfeb7f7dd333f70ce7f83b275f3ddbf20e6f699ede",
+          "sha1": "1b0564ee8559605c5ef0260be68a9b2a2bb2193e",
+          "md5": "d2115dd0f4584a09f03a436ce348d370"
         }
       ]
     }
