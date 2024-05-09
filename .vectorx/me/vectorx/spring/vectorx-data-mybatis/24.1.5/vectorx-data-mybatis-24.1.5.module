@@ -1,0 +1,261 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-data-mybatis",
+    "version": "24.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.5"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.mybatis.spring.boot",
+          "module": "mybatis-spring-boot-starter",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.mybatis",
+          "module": "mybatis-typehandlers-jsr310",
+          "version": {
+            "requires": "1.0.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.github.jsqlparser",
+          "module": "jsqlparser",
+          "version": {
+            "requires": "4.9"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-mybatis-24.1.5.jar",
+          "url": "vectorx-data-mybatis-24.1.5.jar",
+          "size": 110125,
+          "sha512": "eabcdb0322941a578f7c2da8918fbfc8dfe95a265f119d5390b510a22778bab32c74e3df60ac18afbc0e5fced132a74d6a893ef08633a135beac3c2c65d7f7fd",
+          "sha256": "7124d2370805a3a96adeb32d39fd584744d82ebddd8b9f0c26d56c43d57d1d0f",
+          "sha1": "26e75620fd478c27c578406badaefd5f01e1ea44",
+          "md5": "42fd4f1a39a8efbb15331d2e70eaf169"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.5"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.mybatis.spring.boot",
+          "module": "mybatis-spring-boot-starter",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.mybatis",
+          "module": "mybatis-typehandlers-jsr310",
+          "version": {
+            "requires": "1.0.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.github.jsqlparser",
+          "module": "jsqlparser",
+          "version": {
+            "requires": "4.9"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-mybatis-24.1.5.jar",
+          "url": "vectorx-data-mybatis-24.1.5.jar",
+          "size": 110125,
+          "sha512": "eabcdb0322941a578f7c2da8918fbfc8dfe95a265f119d5390b510a22778bab32c74e3df60ac18afbc0e5fced132a74d6a893ef08633a135beac3c2c65d7f7fd",
+          "sha256": "7124d2370805a3a96adeb32d39fd584744d82ebddd8b9f0c26d56c43d57d1d0f",
+          "sha1": "26e75620fd478c27c578406badaefd5f01e1ea44",
+          "md5": "42fd4f1a39a8efbb15331d2e70eaf169"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-mybatis-24.1.5-javadoc.jar",
+          "url": "vectorx-data-mybatis-24.1.5-javadoc.jar",
+          "size": 305041,
+          "sha512": "113bac4d21a92aa5dfb4673ad90bd7e2b9328955707fecaf2cf8bb2c5a8c8cd42a8feae2ede6169fc2b3fde4813fdd657984a6c9f85610f879bc34b593b6fa62",
+          "sha256": "552b1273025359ebc9da029ba6c52d63986739e6b550987f2208b47613187928",
+          "sha1": "70314c70e12fb2c157598c2cd2ad86e60985cde3",
+          "md5": "09f1adc95d955bf494244a4bc56be1c0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-mybatis-24.1.5-sources.jar",
+          "url": "vectorx-data-mybatis-24.1.5-sources.jar",
+          "size": 70740,
+          "sha512": "42348e35a2c1e4286716d83a2fda675ab9fbf99f1765173772f9b2df4f52a57c671490b2d2de9157b69981b0308465132cbfe004d2e15be6138556dc93172b8d",
+          "sha256": "6d8137c1cce1390d2a21d5f38ac9fb649994d555aa5f5bf00771534a29463f70",
+          "sha1": "66a72d25c3a99fbca1382cf2b3625978d114f5d0",
+          "md5": "fcacb4a936ec24bf1c28a2a3f5f5146a"
+        }
+      ]
+    }
+  ]
+}

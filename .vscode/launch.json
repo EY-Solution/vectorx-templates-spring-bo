@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApplicationRunner<vectorx-templates-spring-bo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "me.vectorx.spring.templates.bo.ApplicationRunner",
+            "projectName": "vectorx-templates-spring-bo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

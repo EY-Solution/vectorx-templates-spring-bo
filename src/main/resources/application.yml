@@ -23,6 +23,13 @@ vx:
           username: sa
           password:
       default-datasource-name: vx
+    
+    logging:
+      interfaces:
+        enabled: true
+        defaults:
+          enabled: true
+          log-type: ALL
 
 spring:
   h2:
