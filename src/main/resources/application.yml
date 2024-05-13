@@ -13,6 +13,8 @@ vx:
     view:
       type: STATIC_THYEMELEAF
       client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
+    rest:
+      exclude-wrapping-url-patterns: /h2-console,/h2-console/**
   data:
     datasource:
       enabled: true
@@ -24,14 +26,23 @@ vx:
           password:
       default-datasource-name: vx
     
+    mybatis:
+      pagination:
+        dialect:
+          h2: me.vectorx.spring.data.mybatis.pagination.dialect.vendor.VxH2OracleModePaginationVendorDialect
+          
     logging:
       interfaces:
         enabled: true
         defaults:
-          enabled: true
+          enabled: false
           log-type: ALL
 
 spring:
+  sql:
+    init:
+      mode: always
+      platform: h2
   h2:
     console:
       enabled: true
