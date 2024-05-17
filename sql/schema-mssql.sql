@@ -3669,7 +3669,7 @@ CREATE TABLE [VECTORX_MNU] (
 	[AUTH_SCOP_CD] [CHAR](2),  /* 권한_범위_코드 */
 	[ICON_FILE_ID] [VARCHAR](50),  /* 아이콘_파일_아이디 */
 	[MNU_GUIDE_CONT] [TEXT],  /* 메뉴_가이드_내용 */
-	[MNU_DVC_SCOP_CD] [CHAR(1)] NOT NULL DEFAULT 'A', /* 메뉴_디바이스_범위_코드 */
+	[MNU_DVC_SCOP_CD] [CHAR](1) NOT NULL DEFAULT 'A', /* 메뉴_디바이스_범위_코드 */
 	[REG_DTTM] [DATETIME] NOT NULL,  /* 등록_일시 */
 	[REG_USR_ID] [VARCHAR](20),  /* 등록_사용자_아이디 */
 	[REG_USR_IP] [VARCHAR](20),  /* 등록_사용자_아이피 */
