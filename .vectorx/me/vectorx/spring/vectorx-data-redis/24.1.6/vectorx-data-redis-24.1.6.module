@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-data-redis",
+    "version": "24.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-redis",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-redis-24.1.6.jar",
+          "url": "vectorx-data-redis-24.1.6.jar",
+          "size": 9718,
+          "sha512": "ee39c2dbb471a362ede677ef939d75fb745865934c1b1cbdf7d2ff95ed66823d1f97c2f29998599f17cf0dab6eeca770eb138692cb8882b782e94089ad8d4bd4",
+          "sha256": "6e7291920ea21059d10821c7b83e7c9aabd765b680c879a6c2cafd39a8a11901",
+          "sha1": "d60b67ea3e7b45febb11526d80fc634cb8355ef6",
+          "md5": "30cb828551ed541da12978de51a9520f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-redis",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-redis-24.1.6.jar",
+          "url": "vectorx-data-redis-24.1.6.jar",
+          "size": 9718,
+          "sha512": "ee39c2dbb471a362ede677ef939d75fb745865934c1b1cbdf7d2ff95ed66823d1f97c2f29998599f17cf0dab6eeca770eb138692cb8882b782e94089ad8d4bd4",
+          "sha256": "6e7291920ea21059d10821c7b83e7c9aabd765b680c879a6c2cafd39a8a11901",
+          "sha1": "d60b67ea3e7b45febb11526d80fc634cb8355ef6",
+          "md5": "30cb828551ed541da12978de51a9520f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-redis-24.1.6-javadoc.jar",
+          "url": "vectorx-data-redis-24.1.6-javadoc.jar",
+          "size": 93495,
+          "sha512": "a440de4f2c2de503ebd90320c551ef3b46a6e09e6fc4a612968c3b3d27949c2eff865f38cf5fe05066c606e2e5c783fa6965813d64609c0f255ab977562b3cd6",
+          "sha256": "8f7088970111fda1bc49e02d298a74a34d6243c8d29a853026742441e7ece7b0",
+          "sha1": "a536689abaa5d89e569509500cd30bddae06101d",
+          "md5": "fcaeb0cc58ed9c4452c2e0704fc3b6a1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-redis-24.1.6-sources.jar",
+          "url": "vectorx-data-redis-24.1.6-sources.jar",
+          "size": 3360,
+          "sha512": "1a820ccc32a59c79d587fc64f38296ce8d7a5923e23261d5f9d58d4af073d7e3ad13d4247ee98641909094e7d539a272868efc5b1d0694a9f0b978a0a6524373",
+          "sha256": "be133358a8636e0f09e9428b0044390c35e2b8cad9ad0a0c38683a7794328c96",
+          "sha1": "f9ee6c936be197a90db15b955eb0246fad977ef3",
+          "md5": "fd436423626321326c5131c5fc8f64cc"
+        }
+      ]
+    }
+  ]
+}
