@@ -1,0 +1,14 @@
+vx:
+  data:
+    datasource:
+      datasources:
+        vx:
+          url: jdbc:log4jdbc:sqlserver://localhost:1433;databaseName=vectorx;encrypt=false
+          driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+          username: vectorx
+          password: VXMSSQL2024!
+
+spring:
+  sql:
+    init:
+      mode: never
