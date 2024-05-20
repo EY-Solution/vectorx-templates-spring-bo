@@ -52,6 +52,8 @@ dependencies {
 
     runtimeOnly 'com.h2database:h2'
     
+    // mssql
+    implementation 'com.microsoft.sqlserver:mssql-jdbc'
     
     // swagger
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
