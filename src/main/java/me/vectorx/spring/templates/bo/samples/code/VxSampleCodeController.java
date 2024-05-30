@@ -57,7 +57,7 @@ public class VxSampleCodeController {
 	public void editCode(@ApiParam @Valid @RequestBody VxSampleAddReqDto req) {
 		this.vxSampleCodeService.edit(req.getCode());
 	}
-	
+		
 	@ApiOperation("코드 삭제")
 	@DeleteMapping("/{grpCd}/{dtlCd}")
 	public void removeCode(
