@@ -72,7 +72,6 @@ public class VxSampleCodeEntity extends VxManagementBaseEntity {
 	@ApiModelProperty(value = "사용 여부", allowableValues = "Y, N")
 	private String useYn;
 
-
 	/**
 	 * 정렬 순번
 	 */

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="me.vectorx.spring.templates.bo.samples.temp.VxTempMapper">
+	<select id="selectTmpPlantList" resultType="me.vectorx.spring.templates.bo.samples.temp.VxTempEntity">
+	/*me.vectorx.spring.templates.bo.samples.temp.VxTempMapper.selectMstPlantList*/
+		SELECT
+			  MP.PLANT_CD
+			, '[' + MP.PLANT_CD + '] ' + MP.PLANT_NM      AS PLANT_NM
+			, MC.COMPANY_NM
+			, MP.COMPANY_CD
+			, '[' + MP.PLANT_CD + '] ' + MP.PLANT_NM_ABBR AS PLANT_NM_ABBR
+			, MP.PLANT_TYPE
+			, MP.LOCATION_CD
+			, MP.PLANT_CD + ' / ' + MP.PLANT_NM AS PLANT_CD_NM
+		FROM TMP_COMPANY MC INNER JOIN TMP_PLANT MP
+							ON MC.COMPANY_CD = MP.COMPANY_CD
+							AND MC.USE_YN = 'Y'
+		WHERE MP.USE_YN = 'Y'
+	</select>
+	
+	<select id="selectTmpSectionList" resultType="me.vectorx.spring.templates.bo.samples.temp.VxTempEntity">
+		/*me.vectorx.spring.templates.bo.samples.temp.VxTempMapper.selectTmpSectionList*/
+		SELECT
+			  MP.COMPANY_CD
+			, MP.PLANT_CD
+			, '[' + MP.PLANT_CD + '] ' + MP.PLANT_NM                                AS PLANT_NM
+			, MPS.PLANT_CD + '|' + MPS.PLANT_SECTION_CD								AS PLANT_SECTION_CD
+			, '[' + MPS.PLANT_SECTION_CD + '] ' + MPS.PLANT_SECTION_NM              AS PLANT_SECTION_NM
+			, MP.SORT_ORDER
+		FROM TMP_PLANT MP LEFT OUTER JOIN TMP_PLANT_SECTION MPS ON MP.PLANT_CD  = MPS.PLANT_CD
+		WHERE MP.USE_YN ='Y'
+			AND MPS.USE_YN  = 'Y'
+		
+		<if test='plantCd != null and plantCd != ""'>
+			AND MP.PLANT_CD = #{plantCd}
+		</if>
+			
+		<if test='plantCds != null and plantCds.length != 0'>
+            <foreach collection="plantCds" item="code" open="AND MPS.PLANT_CD IN (" close=")" separator=",">
+                #{code}
+            </foreach>
+        </if>
+	</select>
+	
+	<select id="selectTmpPlantLocList" resultType="me.vectorx.spring.templates.bo.samples.temp.VxTempEntity">
+		/*me.vectorx.spring.templates.bo.samples.temp.VxTempMapper.selectTmpPlantLocList*/
+		SELECT
+			   PLANT_CD +'|'+PLANT_SECTION_CD+'|'+PLANT_LOC_CD  AS PLANT_LOC_CD
+		    , '[' + PLANT_LOC_CD +'] ' + PLANT_LOC_NM        	AS PLANT_LOC_NM
+		 	, PLANT_CD +'|'+PLANT_SECTION_CD					AS PLANT_SECTION_CD
+		FROM TMP_PLANT_LOC 
+		WHERE USE_YN = 'Y'
+		
+		<if test='plantSectionCd != null and plantSectionCd != ""'>
+			AND (PLANT_CD + '|' + PLANT_SECTION_CD) = #{plantSectionCd}
+		</if>
+		
+		<if test='plantSectionCds != null and plantSectionCds.length != 0'>
+            <foreach collection="plantSectionCds" item="code" open="AND (PLANT_CD + '|' + PLANT_SECTION_CD) IN (" close=")" separator=",">
+                #{code}
+            </foreach>
+        </if>
+	</select>
+	
+	<select id="selectTmpGridList" resultType="CamelCaseMap">
+	/*me.vectorx.spring.templates.bo.samples.temp.VxTempMapper.selectTmpGridList*/
+		SELECT
+			  ROW_NUMBER() OVER(ORDER BY NEWID()) AS IDX 
+			, PLANT_CD
+			, PLANT_LOC_CD
+			, PLANT_LOC_NM
+			, USE_YN
+			, PLANT_SECTION_CD
+			, OPERATION_CD
+			, CREATE_USER
+			, CONVERT(VARCHAR(10), CREATE_DATE, 120) AS CREATE_DATE
+			, LST_UPT_USER
+			, CONVERT(VARCHAR(10), LST_UPT_DATE, 120) AS LST_UPT_DATE
+		FROM TMP_PLANT_LOC
+	</select>
+	
+	
+</mapper>
