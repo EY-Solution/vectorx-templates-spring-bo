@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-cloud-core",
+    "version": "24.1.8-SNAPSHOT.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-core",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.1"
+          }
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter"
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-core-24.1.8-SNAPSHOT.1.jar",
+          "url": "vectorx-cloud-core-24.1.8-SNAPSHOT.1.jar",
+          "size": 2717,
+          "sha512": "678362866b44a3c1a06f39e11250633834006636e3364aacab79cfb6ff7129031113cd8e404bf84b202c9b1fc9f0c63abf67010bf80f797c68de0cc1f841a4cb",
+          "sha256": "610f9a57c7b25901ec816d9e60e48e7632b7a6082ea196de95d80840fc6d8540",
+          "sha1": "256b0dc03d2043061c7ec987fbfd3941d3e7b461",
+          "md5": "66dc91cdba8f27458a1603ece22fca64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-core",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.1"
+          }
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter"
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-core-24.1.8-SNAPSHOT.1.jar",
+          "url": "vectorx-cloud-core-24.1.8-SNAPSHOT.1.jar",
+          "size": 2717,
+          "sha512": "678362866b44a3c1a06f39e11250633834006636e3364aacab79cfb6ff7129031113cd8e404bf84b202c9b1fc9f0c63abf67010bf80f797c68de0cc1f841a4cb",
+          "sha256": "610f9a57c7b25901ec816d9e60e48e7632b7a6082ea196de95d80840fc6d8540",
+          "sha1": "256b0dc03d2043061c7ec987fbfd3941d3e7b461",
+          "md5": "66dc91cdba8f27458a1603ece22fca64"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-core-24.1.8-SNAPSHOT.1-javadoc.jar",
+          "url": "vectorx-cloud-core-24.1.8-SNAPSHOT.1-javadoc.jar",
+          "size": 70479,
+          "sha512": "b1289dbce3cfe710b466b884a5b87af497855420e3059115bcf6b9aefb561e6d6c4552fd9c9a2aed01bb66ef5dc168db05f0584bf76302da78899612806a46e4",
+          "sha256": "c83c895df9405b53bfa3f286250349c8e9d7cddbf8936aecf634831eaabd9d4f",
+          "sha1": "772a242be0233efdd49a353daa909cf986aae57d",
+          "md5": "36e2f33829211bc0249dd2d7fd061e3e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-core-24.1.8-SNAPSHOT.1-sources.jar",
+          "url": "vectorx-cloud-core-24.1.8-SNAPSHOT.1-sources.jar",
+          "size": 1186,
+          "sha512": "70b23470463a8891f6f540b9b3176c34d9681fb0df343c2682c43711207c9bbe65c003cc5f43c48189d6e303836477a131162857347e32bd74cd5fd6e268bcf0",
+          "sha256": "79916e37c0bfb1292456999efb20ccf59993a0e910329313ece89631f437e89b",
+          "sha1": "0b4f7b4640dd8f28f078ed5eed94f3d50c8d23fd",
+          "md5": "da8fea4d2e18be93a7d51fe19bbf5b72"
+        }
+      ]
+    }
+  ]
+}
