@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-autoconfigure",
+    "version": "24.1.8-SNAPSHOT.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2.jar",
+          "url": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2.jar",
+          "size": 181419,
+          "sha512": "1f7496525884941157561302b27c80db4fdf16c88d94fe6cb2c2405172e93eb74fc13879832406f8729ba99e4189fadf267c5546018902227a9598d7cd7e92e9",
+          "sha256": "070da202c267444122bb63d2a8cf5cf4efc7676f177918e78a4aee28dbc39896",
+          "sha1": "fc287e319d6c3a88621ac53b360fdc4a3649fc47",
+          "md5": "3aae41d0a671bdf039b3d88d39cc8840"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2.jar",
+          "url": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2.jar",
+          "size": 181419,
+          "sha512": "1f7496525884941157561302b27c80db4fdf16c88d94fe6cb2c2405172e93eb74fc13879832406f8729ba99e4189fadf267c5546018902227a9598d7cd7e92e9",
+          "sha256": "070da202c267444122bb63d2a8cf5cf4efc7676f177918e78a4aee28dbc39896",
+          "sha1": "fc287e319d6c3a88621ac53b360fdc4a3649fc47",
+          "md5": "3aae41d0a671bdf039b3d88d39cc8840"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2-javadoc.jar",
+          "url": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2-javadoc.jar",
+          "size": 274489,
+          "sha512": "d1a61c5e64124a5311f9bce54497d6dd2f0fb0e55bbafd19d75e876df7cea1b6272937bf8bf031442c6ace076a1d5c7f8c83e29e7d0ef925a41bc113641a8cec",
+          "sha256": "ceb5e84772ca477deab19059253b61e55a01980827349d8d29d8bea84346c3aa",
+          "sha1": "c169865fbd883c53972e446f7261938ce01848e3",
+          "md5": "2a367ad3cd412ce45b8167452207915e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2-sources.jar",
+          "url": "vectorx-autoconfigure-24.1.8-SNAPSHOT.2-sources.jar",
+          "size": 68190,
+          "sha512": "d258b7ebea1b978e9b4769fad971bdd1e923f155471c2bb68135c31aedffaf9567f0ed1b68e8fa20dbda0c2444fc18f67fc4259ce9d5ddb6e6ac003dc46f89b5",
+          "sha256": "6149f34cb692318700324b55f4b94e5cd5a360c16fc7ebe1d87f61e8d7cdd4ba",
+          "sha1": "eaec2799d24bf5514ac7c71b7d5a095f5f789af0",
+          "md5": "b0f4808b81425eb6835ba08f5660aa67"
+        }
+      ]
+    }
+  ]
+}

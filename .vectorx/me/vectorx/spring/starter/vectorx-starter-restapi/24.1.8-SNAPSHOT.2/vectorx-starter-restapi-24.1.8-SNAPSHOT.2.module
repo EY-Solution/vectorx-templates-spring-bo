@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring.starter",
+    "module": "vectorx-starter-restapi",
+    "version": "24.1.8-SNAPSHOT.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-restapi-24.1.8-SNAPSHOT.2.jar",
+          "url": "vectorx-starter-restapi-24.1.8-SNAPSHOT.2.jar",
+          "size": 261,
+          "sha512": "103f8729f4b1fd1f322c72934353d90af0228bd8f55d7d366509651db5d97e9458c95f96b895b49bb6afa8466c6382130c7a6f25015ae4e7b18763a992b7afb1",
+          "sha256": "4010b00828f820b00b0638fcc6a078338ee8b03d0c9e3b2e967a5c4219ee6b19",
+          "sha1": "bebe5c273e7ce476f56bfbbd9bd01a6caca6059d",
+          "md5": "4fec44b7b0e6a42e32b5165240c1c56c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.8-SNAPSHOT.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-restapi-24.1.8-SNAPSHOT.2.jar",
+          "url": "vectorx-starter-restapi-24.1.8-SNAPSHOT.2.jar",
+          "size": 261,
+          "sha512": "103f8729f4b1fd1f322c72934353d90af0228bd8f55d7d366509651db5d97e9458c95f96b895b49bb6afa8466c6382130c7a6f25015ae4e7b18763a992b7afb1",
+          "sha256": "4010b00828f820b00b0638fcc6a078338ee8b03d0c9e3b2e967a5c4219ee6b19",
+          "sha1": "bebe5c273e7ce476f56bfbbd9bd01a6caca6059d",
+          "md5": "4fec44b7b0e6a42e32b5165240c1c56c"
+        }
+      ]
+    }
+  ]
+}
