@@ -13,6 +13,8 @@ vx:
     view:
       type: STATIC_THYEMELEAF
       client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
+      exclude-validation-url-patterns:
+      - "**"
     rest:
       exclude-wrapping-url-patterns: /h2-console,/h2-console/**
   data:
@@ -21,6 +23,7 @@ vx:
       datasources:
         vx:
           url: jdbc:log4jdbc:h2:file:C:\workspaces\ey-solutions\templates\data\vx-h2;Mode=Oracle
+          # url: jdbc:h2:file:C:\workspaces\ey-solutions\templates\data\vx-h2;Mode=Oracle
           driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
           username: sa
           password:

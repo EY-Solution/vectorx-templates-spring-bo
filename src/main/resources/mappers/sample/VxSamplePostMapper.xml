@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="me.vectorx.spring.templates.bo.samples.post.VxSamplePostMapper">
+
+	<select id="selectList" resultType="me.vectorx.spring.templates.bo.samples.post.VxSamplePostEntity">
+		SELECT A.POST_ID
+			  ,A.AUTH_NM
+			  ,A.AUTH_EML
+			  ,A.POST_TTL
+			  ,A.VIEW_CNT
+			  ,A.REG_DTTM
+		  FROM VECTORX_SAMPLE_POST A
+		 WHERE 1=1
+		 <if test="condition.postTtl != null and condition.postTtl != ''">
+		   AND A.POST_TTL LIKE '%' || #{condition.postTtl} || '%'
+		 </if>
+		 <if test="condition.authNm != null and condition.authNm != ''">
+		   AND A.AUTH_NM LIKE '%' || #{condition.authNm} || '%'
+		 </if>
+		 <if test="condition.stRegYyyyMMdd != null and condition.stRegYyyyMMdd != ''">
+		   AND A.REG_DTTM &gt;= TO_DATE(#{condition.stRegYyyyMMdd}, 'YYYYMMDD')
+		 </if>
+		 <if test="condition.edRegYyyyMMdd != null and condition.edRegYyyyMMdd != ''">
+		   AND A.REG_DTTM &lt;= TO_DATE(#{condition.edRegYyyyMMdd}, 'YYYYMMDD')
+		 </if>
+	</select>
+	
+	<select id="select" resultType="me.vectorx.spring.templates.bo.samples.post.VxSamplePostEntity">
+	SELECT A.POST_ID
+		  ,A.AUTH_NM
+		  ,A.AUTH_EML
+		  ,A.POST_TTL
+		  ,A.POST_CONT
+		  ,A.VIEW_CNT
+		  ,A.REG_DTTM
+	  FROM VECTORX_SAMPLE_POST A
+	 WHERE A.POST_ID = #{postId}
+	</select>
+	
+	<insert id="insert">
+		<selectKey keyProperty="postId" resultType="int" order="BEFORE">
+			SELECT nextval('SQ_VECTORX_SAMPLE_POST_01')
+		</selectKey>
+		INSERT INTO VECTORX_SAMPLE_POST (
+			POST_ID
+			,AUTH_NM
+			,AUTH_EML
+			,POST_TTL
+			,POST_CONT
+			,VIEW_CNT
+			,REG_DTTM
+			,REG_USR_ID
+			,REG_USR_IP
+			,UPD_DTTM
+			,UPD_USR_ID
+			,UPD_USR_IP 
+		) VALUES (
+			#{postId}
+			,#{authNm}
+			,#{authEml}
+			,#{postTtl}
+			,#{postCont}
+			,#{viewCnt}
+			,CURRENT_TIMESTAMP
+			,#{regUsrId}
+			,#{regUsrIp}
+			,CURRENT_TIMESTAMP
+			,#{updUsrId}
+			,#{updUsrIp}
+		)
+	</insert>
+	
+	<update id="update">
+	UPDATE VECTORX_SAMPLE_POST SET
+		AUTH_NM=#{authNm}
+		,AUTH_EML=#{authEml}
+		,POST_TTL=#{postTtl}
+		,POST_CONT=#{postCont}
+		,UPD_DTTM = CURRENT_TIMESTAMP
+		,UPD_USR_ID = #{updUsrId}
+		,UPD_USR_IP = #{updUsrIp}
+	 WHERE POST_ID = #{postId}
+	</update>
+	
+	
+	<update id="updateViewCnt">
+	UPDATE VECTORX_SAMPLE_POST SET
+		VIEW_CNT = VIEW_CNT + 1
+	 WHERE POST_ID = #{postId}
+	</update>
+	
+	
+	<delete id="delete">
+	DELETE FROM VECTORX_SAMPLE_POST
+	 WHERE POST_ID = #{postId}
+	</delete>
+	
+</mapper>
