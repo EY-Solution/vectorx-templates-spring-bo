@@ -10,6 +10,7 @@
 			  ,A.AUTH_EML
 			  ,A.POST_TTL
 			  ,A.VIEW_CNT
+			  ,A.REG_DTTM
 		  FROM VECTORX_SAMPLE_POST A
 		 WHERE 1=1
 		 <if test="condition.postTtl != null and condition.postTtl != ''">

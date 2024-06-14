@@ -13,6 +13,8 @@ vx:
     view:
       type: STATIC_THYEMELEAF
       client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
+      exclude-validation-url-patterns:
+      - "**"
     rest:
       exclude-wrapping-url-patterns: /h2-console,/h2-console/**
   data:
