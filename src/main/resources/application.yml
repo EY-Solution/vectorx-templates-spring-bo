@@ -40,6 +40,10 @@ vx:
         defaults:
           enabled: true
           log-type: ALL
+          
+    table-mapping:
+      exclude-classes:
+      - me.vectorx.spring.management.data.mapping.VxFileGroupTableMappingModel
 
 spring:
   sql:
