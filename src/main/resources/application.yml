@@ -44,7 +44,13 @@ vx:
     table-mapping:
       exclude-classes:
       - me.vectorx.spring.management.data.mapping.VxFileGroupTableMappingModel
-
+  
+  management:
+    core:
+      samples:
+        upload-web-url: http://localhost:21002
+        upload-root-path: "/upload"
+  
 spring:
   sql:
     init:
