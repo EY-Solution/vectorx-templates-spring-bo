@@ -1,0 +1,345 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-security-jwt",
+    "version": "24.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-socket",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.9.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.devskiller.friendly-id",
+          "module": "friendly-id-spring-boot",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.25.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-security-jwt-24.1.8.jar",
+          "url": "vectorx-security-jwt-24.1.8.jar",
+          "size": 87344,
+          "sha512": "10feab888a1f2b3fc60df6447928ca5444f45707b00c5bf50eac790b6289e75a77bed38607bef372eb6f105f3bc8092a3b4aa0b9094aa4fe89b8d5be03d57f57",
+          "sha256": "182399ed3c207d6f51a0c59c8bc389af7de9c0cb005d31da9ea6197c03ecd293",
+          "sha1": "59482c834784b1465480c7aec94b4d3daa45c705",
+          "md5": "aff8b85856c3869dc2d69b78d30e7352"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-socket",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt",
+          "version": {
+            "requires": "0.9.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.devskiller.friendly-id",
+          "module": "friendly-id-spring-boot",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.25.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-security-jwt-24.1.8.jar",
+          "url": "vectorx-security-jwt-24.1.8.jar",
+          "size": 87344,
+          "sha512": "10feab888a1f2b3fc60df6447928ca5444f45707b00c5bf50eac790b6289e75a77bed38607bef372eb6f105f3bc8092a3b4aa0b9094aa4fe89b8d5be03d57f57",
+          "sha256": "182399ed3c207d6f51a0c59c8bc389af7de9c0cb005d31da9ea6197c03ecd293",
+          "sha1": "59482c834784b1465480c7aec94b4d3daa45c705",
+          "md5": "aff8b85856c3869dc2d69b78d30e7352"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-security-jwt-24.1.8-javadoc.jar",
+          "url": "vectorx-security-jwt-24.1.8-javadoc.jar",
+          "size": 251696,
+          "sha512": "1a0f1297ed0f65f1ac1527483cdf9edbed144c0000d1223628eb2e07c6da3288f8f9f162f088579bee57ccb0a365fbc6961b9068dea59817a110f27a618dc990",
+          "sha256": "d9f9744bfbe0c93b5c1a1e11888b83cc89a7f098c2229acf3ebb4c57f107e2c4",
+          "sha1": "c7f6bd36b1f2ffd5eb00b733f552fd01dc452c8a",
+          "md5": "cc454d8ba91a881d9960925447d8361a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-security-jwt-24.1.8-sources.jar",
+          "url": "vectorx-security-jwt-24.1.8-sources.jar",
+          "size": 42980,
+          "sha512": "b165751634727181f581fd4b6c47ca7ee357e3cb14262c799fc82c8f02dc39a05742b31c95730a25689210720700f3365729e236729592cd734c057f2168aeea",
+          "sha256": "33e49ea0381f142fa38c49865a8be1431926b535e22728a52536c65726af51ea",
+          "sha1": "26cfeb8f6bd2039fc37dc151e68ebfdf9aec9e67",
+          "md5": "40a75081afefa84c4e5160aff44dd97f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-management-bo",
+    "version": "24.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data-mybatis",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security-jwt",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-management-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-management-bo-24.1.8.jar",
+          "url": "vectorx-management-bo-24.1.8.jar",
+          "size": 145531,
+          "sha512": "1c04b78dbc0732b4a108411ba7a5f05199062e5b77de99c208cd48fe6db42543c933a541ae0591734d4c14642c7658b27d5f47b06c785e708deb6f9c8fa91943",
+          "sha256": "bc38a7f2daa78dc6cceaca614db34d99398bddae26a43be20df1366b16444d6e",
+          "sha1": "e70f98dfb3a61f4d16778cc609f2ac2ba259fdef",
+          "md5": "7dfb4333238f3a9ea43ca8b1f2427311"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data-mybatis",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-security-jwt",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-management-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-management-bo-24.1.8.jar",
+          "url": "vectorx-management-bo-24.1.8.jar",
+          "size": 145531,
+          "sha512": "1c04b78dbc0732b4a108411ba7a5f05199062e5b77de99c208cd48fe6db42543c933a541ae0591734d4c14642c7658b27d5f47b06c785e708deb6f9c8fa91943",
+          "sha256": "bc38a7f2daa78dc6cceaca614db34d99398bddae26a43be20df1366b16444d6e",
+          "sha1": "e70f98dfb3a61f4d16778cc609f2ac2ba259fdef",
+          "md5": "7dfb4333238f3a9ea43ca8b1f2427311"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-management-bo-24.1.8-javadoc.jar",
+          "url": "vectorx-management-bo-24.1.8-javadoc.jar",
+          "size": 305916,
+          "sha512": "7b7f52e33564348373746bb687da0299fbdb70adb3ec738e2c14a60bcb4a57f163a8f3e989a0b88e6f60e072b54b2225f352c5150b41210fc1b4ccc537f706bf",
+          "sha256": "435495f7cfeba3ae2a30d9c1b07266119076d8ec24be5742917a9a52055133c6",
+          "sha1": "526ac8ca3d1708adf70f7777e58110fe6231f485",
+          "md5": "c0023613816906ef71034c3b24fddad6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-management-bo-24.1.8-sources.jar",
+          "url": "vectorx-management-bo-24.1.8-sources.jar",
+          "size": 59409,
+          "sha512": "7d67aa2a06072e3276e57a2a1ba9a8bbae1c9d34bf61c3fe1638600cbf8dbb2fa43ccea92433674ca5751ccdf2b45b3b4efe1320cab5584d39da4dbedfc0c624",
+          "sha256": "dc5a818545bcebd64073b7495200da96e1c6f0778e3a3de49aaabcdbd6fc959a",
+          "sha1": "5651246bdb582f55a51c7c83dd1672c4a8ee3a15",
+          "md5": "1196c3f1dd344b30aa1c8a983570de24"
+        }
+      ]
+    }
+  ]
+}

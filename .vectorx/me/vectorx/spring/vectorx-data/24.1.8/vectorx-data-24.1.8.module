@@ -1,0 +1,393 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-data",
+    "version": "24.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jdbc",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-thymeleaf",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-json",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.bgee.log4jdbc-log4j2",
+          "module": "log4jdbc-log4j2-jdbc4.1",
+          "version": {
+            "requires": "1.16"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "4.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "4.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "itext7-core",
+          "version": {
+            "requires": "7.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "itext7-core",
+              "type": "pom",
+              "extension": "pom"
+            }
+          }
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "html2pdf",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.2.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-24.1.8.jar",
+          "url": "vectorx-data-24.1.8.jar",
+          "size": 490903,
+          "sha512": "c0b7c9292b6acba8f724025324aa4aafb174cac8c697d8f5ffa2e7e427f2bb95c424c90cabb4f8bd9787e7341fa264a7b9a7e02722c4f7a3aae373c025c4ad91",
+          "sha256": "574a3928ffc2cdd4290969f21b1f9efdf7bd2d271d84e8ac23795e910645d419",
+          "sha1": "b27a9d559e1cb6b8d32c1baa0c01d9816fc13a69",
+          "md5": "caa0dad55cc63c95e3bc994f9277531f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jdbc",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-thymeleaf",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-json",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.bgee.log4jdbc-log4j2",
+          "module": "log4jdbc-log4j2-jdbc4.1",
+          "version": {
+            "requires": "1.16"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "4.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "4.1.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "itext7-core",
+          "version": {
+            "requires": "7.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "itext7-core",
+              "type": "pom",
+              "extension": "pom"
+            }
+          }
+        },
+        {
+          "group": "com.itextpdf",
+          "module": "html2pdf",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.jodd",
+          "module": "jodd-util",
+          "version": {
+            "requires": "6.2.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-24.1.8.jar",
+          "url": "vectorx-data-24.1.8.jar",
+          "size": 490903,
+          "sha512": "c0b7c9292b6acba8f724025324aa4aafb174cac8c697d8f5ffa2e7e427f2bb95c424c90cabb4f8bd9787e7341fa264a7b9a7e02722c4f7a3aae373c025c4ad91",
+          "sha256": "574a3928ffc2cdd4290969f21b1f9efdf7bd2d271d84e8ac23795e910645d419",
+          "sha1": "b27a9d559e1cb6b8d32c1baa0c01d9816fc13a69",
+          "md5": "caa0dad55cc63c95e3bc994f9277531f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-24.1.8-javadoc.jar",
+          "url": "vectorx-data-24.1.8-javadoc.jar",
+          "size": 1075214,
+          "sha512": "40a1aa970f469afb6c778a5f7451216747daff7cb0389624d3d6907fca084b2886ccda05b46efab2812ceedd31b102f08139935e514106186fe088525b591236",
+          "sha256": "2f5ff887448b84799d067dbd8bf855cb2ca5049d5cb7088fdfb29b8309626cf7",
+          "sha1": "0b48302c98da320f7df53faa3237528d27abfb34",
+          "md5": "dbc7e887d4ba055396ea40f7bcdda3eb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-24.1.8-sources.jar",
+          "url": "vectorx-data-24.1.8-sources.jar",
+          "size": 212963,
+          "sha512": "8d264993972cb846f48a785b47d3e92886c4e300385078e5df6ade12f0d039564d77b673486a71c5639e786af8aeb7285a817978bfda71484cf0b6b25fc92fcc",
+          "sha256": "d003bd70bfc4797342b852c5ed5accd028e667a368519ed998981da5a9e032aa",
+          "sha1": "be195f1943804ddf49c7a05c7e389ea2b58f5f26",
+          "md5": "c5b720f50cc6cc53610a97b7534835b4"
+        }
+      ]
+    }
+  ]
+}

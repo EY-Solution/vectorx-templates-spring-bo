@@ -1,0 +1,351 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-cloud-eureka-client",
+    "version": "24.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-netflix-eureka-client",
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-client-24.1.8.jar",
+          "url": "vectorx-cloud-eureka-client-24.1.8.jar",
+          "size": 3035,
+          "sha512": "7971e00085060eee74b3a4e93a1bd9f7553317ddde050ebba86b54a08fa125acf09c2a8e9d3d54fb800429113d52b8f7fcb7a24bd2753aa66a8618721fe50fdd",
+          "sha256": "8b7b70f37d4ec18f4f71179311a9adbbbfd2f0e3d2d901bef0285a980bac3e27",
+          "sha1": "22cd865c958f376f5d3f95264e7ecf8db9e50b19",
+          "md5": "d0df1e94a77a9f3e97f75f97876f5d69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-netflix-eureka-client",
+          "excludes": [
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "com.sun.jersey.contribs",
+              "module": "jersey-apache-client4"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-client"
+            },
+            {
+              "group": "com.sun.jersey",
+              "module": "jersey-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-client-24.1.8.jar",
+          "url": "vectorx-cloud-eureka-client-24.1.8.jar",
+          "size": 3035,
+          "sha512": "7971e00085060eee74b3a4e93a1bd9f7553317ddde050ebba86b54a08fa125acf09c2a8e9d3d54fb800429113d52b8f7fcb7a24bd2753aa66a8618721fe50fdd",
+          "sha256": "8b7b70f37d4ec18f4f71179311a9adbbbfd2f0e3d2d901bef0285a980bac3e27",
+          "sha1": "22cd865c958f376f5d3f95264e7ecf8db9e50b19",
+          "md5": "d0df1e94a77a9f3e97f75f97876f5d69"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-client-24.1.8-javadoc.jar",
+          "url": "vectorx-cloud-eureka-client-24.1.8-javadoc.jar",
+          "size": 70761,
+          "sha512": "c9ac336f35b6d321969b4a85cadbf311e9d02043eba7138dd9cb052852a1de1a78cdcc9f52f7f89e54aa000e5db990d8dfef4d9097d78a7503f19d15637f4586",
+          "sha256": "f2c406045f1c67b781367236e0b62e140c45618a486c06eb93c57e00db1b0a8b",
+          "sha1": "24f001bd5d75006f2e59c735ceafc6aca65a9049",
+          "md5": "e8de4f3c0e7b812ab0d70cf5e7714037"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-client-24.1.8-sources.jar",
+          "url": "vectorx-cloud-eureka-client-24.1.8-sources.jar",
+          "size": 1473,
+          "sha512": "86e853894f440f97c2a11608345ed88db5063a7f30158205e93922ffebf5f85769f34f1de13a2f47c3cddbf6ca90db78e6fdd42a5011488c85e27459f06ed6b1",
+          "sha256": "b58e0319ca75cb9af924e7069fcaffdfdf536f618c8c5d27785384b72c1c1831",
+          "sha1": "108101ea462b8c531a4bc6c2bfc8ceab4f0c3629",
+          "md5": "573692815872588a579879fb5319e6a2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-data-jpa",
+    "version": "24.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-jpa-24.1.8.jar",
+          "url": "vectorx-data-jpa-24.1.8.jar",
+          "size": 2691,
+          "sha512": "be1c4e4f922cbce135e125ce46d7233247561e143a71b142bf1ed484c3b596eca2cbc107dd97a38d9cf78adf087d95c45282dfa2ab76ed0ee16521773ef5ceda",
+          "sha256": "9b593dd5a2d065f6f3d4038b79f5cc4ba7261f5f297148fce079868a981994f4",
+          "sha1": "66843d625480db43d9a0de392849e8e3cced43ec",
+          "md5": "7d4a371ccba444f7bb084bb5e40a0029"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.8"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-data-jpa-24.1.8.jar",
+          "url": "vectorx-data-jpa-24.1.8.jar",
+          "size": 2691,
+          "sha512": "be1c4e4f922cbce135e125ce46d7233247561e143a71b142bf1ed484c3b596eca2cbc107dd97a38d9cf78adf087d95c45282dfa2ab76ed0ee16521773ef5ceda",
+          "sha256": "9b593dd5a2d065f6f3d4038b79f5cc4ba7261f5f297148fce079868a981994f4",
+          "sha1": "66843d625480db43d9a0de392849e8e3cced43ec",
+          "md5": "7d4a371ccba444f7bb084bb5e40a0029"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-jpa-24.1.8-javadoc.jar",
+          "url": "vectorx-data-jpa-24.1.8-javadoc.jar",
+          "size": 70345,
+          "sha512": "af4e78921158fc72f0803938d6b2b019a630372f8f4918d6b131fcb7098f7bbae88e9b615905c985d297444713be74d3d1d4d21db3dff539aa3d17ad3ebddc5e",
+          "sha256": "7ec8a1fc066a0c917afa290fdc6ef017eb9ecc5127fdf649a7e345f844529169",
+          "sha1": "750ab2201a4bd42314f0b4f3445895ff2ce9d478",
+          "md5": "8dd3fbc49a37e2351a8ac0df8c7f4f35"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-data-jpa-24.1.8-sources.jar",
+          "url": "vectorx-data-jpa-24.1.8-sources.jar",
+          "size": 1184,
+          "sha512": "601e122ab10cdd35f95fb18ea7e8530e22f6d0c10d0eab674864bd38f5136c09135f6f331b39e893962223a176b53461754036bf2d94ee09b08e25b69f4e6ac0",
+          "sha256": "075901d896422cf22fbad60b6610a909484964991510df0acde19455e8e792ca",
+          "sha1": "1eb5729c298451f2d34191ec2331844fcde42d34",
+          "md5": "659220f4cfa3bf9531d459d9201741da"
+        }
+      ]
+    }
+  ]
+}
