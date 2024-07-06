@@ -1,0 +1,491 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-cloud-eureka-server",
+    "version": "24.1.9-SNAPSHOT.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.1"
+          },
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-netflix-eureka-server",
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1.jar",
+          "url": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1.jar",
+          "size": 3041,
+          "sha512": "634e3227277bb1df93c72e856f5928a8121c692d9a6a76276807c5da0d33c80c429efaff018bcb00846943afc1b070ff4ced8291836795913b5769f8fa29557f",
+          "sha256": "f9c1c7ae903903730e77ec4c65e4d0d0b2005d305f5c670fbe8fcfc2b442b768",
+          "sha1": "8a3ff265ef42029b69534c3096e00aeba96173d4",
+          "md5": "cde30a69a8571cca804a612de7139fc3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-cloud-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.1"
+          },
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-netflix-eureka-server",
+          "excludes": [
+            {
+              "group": "com.amazonaws",
+              "module": "jmespath-java"
+            },
+            {
+              "group": "com.github.vlsi.compactmap",
+              "module": "compactmap"
+            },
+            {
+              "group": "javax.servlet",
+              "module": "servlet-api"
+            },
+            {
+              "group": "aopalliance",
+              "module": "aopalliance"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-route53"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-autoscaling"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-ec2"
+            },
+            {
+              "group": "software.amazon.ion",
+              "module": "ion-java"
+            },
+            {
+              "group": "com.netflix.archaius",
+              "module": "archaius-core"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-core"
+            },
+            {
+              "group": "com.github.andrewoma.dexx",
+              "module": "dexx-collections"
+            },
+            {
+              "group": "com.amazonaws",
+              "module": "aws-java-sdk-sts"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1.jar",
+          "url": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1.jar",
+          "size": 3041,
+          "sha512": "634e3227277bb1df93c72e856f5928a8121c692d9a6a76276807c5da0d33c80c429efaff018bcb00846943afc1b070ff4ced8291836795913b5769f8fa29557f",
+          "sha256": "f9c1c7ae903903730e77ec4c65e4d0d0b2005d305f5c670fbe8fcfc2b442b768",
+          "sha1": "8a3ff265ef42029b69534c3096e00aeba96173d4",
+          "md5": "cde30a69a8571cca804a612de7139fc3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1-javadoc.jar",
+          "url": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1-javadoc.jar",
+          "size": 70867,
+          "sha512": "a0d4e70727e0d2d2a5834f396980bb42713eef67efe8ff9578d3bdd7bc8031d8211014fa2ab8816ca0d059f648763bd12b16cad258363fe42eeb090a2e903b56",
+          "sha256": "7c256c17641d61b8a71a68f3dfa3f70840a5a5e4600dce4265c673384c0174cd",
+          "sha1": "5118b8c209b202e75ac990ad2993fa73a72b8ae6",
+          "md5": "0f4c4fe65aac53320fddb440c9ce03fc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1-sources.jar",
+          "url": "vectorx-cloud-eureka-server-24.1.9-SNAPSHOT.1-sources.jar",
+          "size": 1454,
+          "sha512": "a8d3a85e6315b7add924bab8609698f1658074bfed9454ddf95c5ce979bc95665b9f8b946a8d3f73453aae2070df33020ed82b5edb8c2cb9a16210e135873fb4",
+          "sha256": "fdb681e970b2fc5fb90b1b9fd70184617c46fff856705b0b11c5cc6b46c68fcf",
+          "sha1": "4e37fc1d6a48d044624c928140344d639323080f",
+          "md5": "98894ec924339880814da9d451d08b43"
+        }
+      ]
+    }
+  ]
+}

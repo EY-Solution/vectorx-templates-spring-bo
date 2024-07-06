@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.vectorx.spring.starter</groupId>
+  <artifactId>vectorx-starter-batch-manager</artifactId>
+  <versioning>
+    <latest>24.1.9-SNAPSHOT.1</latest>
+    <release>24.1.9-SNAPSHOT.1</release>
+    <versions>
+      <version>24.1.9-SNAPSHOT.1</version>
+    </versions>
+    <lastUpdated>20240706135147</lastUpdated>
+  </versioning>
+</metadata>
