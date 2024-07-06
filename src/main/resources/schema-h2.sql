@@ -2473,7 +2473,7 @@ CREATE TABLE IF NOT EXISTS VECTORX_MNU
     MNU_STEP_NO     INTEGER       NOT NULL DEFAULT 1, -- 메뉴_단계_번호
     IP_LMT_YN       CHARACTER(1)       NULL     DEFAULT 'N', -- 아이피제한여부
     IP_LIST         VARCHAR(1000) NULL,     -- 아이피_목록
-    PRV_VIEW_YN     CHARACTER(1)       NULL     DEFAULT 'N', -- 개인정보_조회_여부
+    PRV_VIEW_YN     CHARACTER(1)  NOT  NULL     DEFAULT 'N', -- 개인정보_조회_여부
     DP_YN           CHARACTER(1)       NULL,     -- 전시_여부
     AUTH_SCOP_CD    CHARACTER(2)       NULL,     -- 권한_범위_코드
     ICON_FILE_ID    VARCHAR(50)   NULL,     -- 아이콘_파일_아이디
