@@ -2,12 +2,16 @@ plugins {
 	id 'java'
   	id 'eclipse'
 	id 'org.springframework.boot' version '2.7.18'
+	id 'war'
 }
 
 apply plugin: 'io.spring.dependency-management'
 
 group = 'me.vectorx.templates'
 version = '1.0.0'
+
+bootWar.enabled = false
+war.enabled = true
 
 java {
     toolchain {
@@ -58,6 +62,11 @@ dependencies {
     // swagger
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
     implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+    
+    // exclude war
+    providedRuntime 'org.apache.tomcat.embed:tomcat-embed-core'
+	providedRuntime 'org.apache.tomcat.embed:tomcat-embed-el'
+	providedRuntime 'org.apache.tomcat.embed:tomcat-embed-websocket'
 }
 
 task('initSourceDirectories') {

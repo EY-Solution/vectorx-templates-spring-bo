@@ -1,11 +1,11 @@
 package me.vectorx.spring.templates.bo;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import java.io.IOException;
 
-import me.vectorx.spring.mvc.app.VxServletApplicationRunner;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
-import java.io.IOException;
+import me.vectorx.spring.mvc.app.VxServletApplicationRunner;
 
 @SpringBootApplication
 public class ApplicationRunner extends VxServletApplicationRunner {
