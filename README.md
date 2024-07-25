@@ -43,3 +43,16 @@ java -jar "-Dspring.web.resources.static-locations[0]=file:/workspaces/ey-soluti
 # maven
 java -jar "-Dspring.profiles.active=dev" ./target/vectorx-templates-spring-bo-1.0.0.jar
 ```
+
+## Sample
+
+- code
+me.vectorx.spring.templates.bo.samples.code 패키지에 있으며, VECTORX_SAMPLE_CMM_CD 테이블을 대상으로 기본 CRUD 기반의 샘플
+
+- post
+me.vectorx.spring.templates.bo.samples.code 패키지에 있으며, VECTORX_SAMPLE_POST 테이블에 CRUD를 수행하는 API 샘플
+
+
+## Swagger
+`SwaggerConfiguration.java` 설정으로 Swagger 설정이 import 되어 있으며, 어플리케이션 구동 후 다음 URL로 접속 가능하다.
+- http://localhost:21002/swagger-ui/index.html
