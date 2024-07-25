@@ -50,6 +50,10 @@ vx:
       samples:
         upload-web-url: http://localhost:21002
         upload-root-path: "/upload"
+    bo:
+      authentication:
+        access-valid-second: 6000 #access token valid time
+        refresh-valid-seconds: 72000 #refresh token valid time
   
 spring:
   sql:
