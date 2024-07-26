@@ -105,7 +105,7 @@ SELECT (SELECT NEXTVAL('SQ_VECTORX_MNU_01'))
    , 2
    , 'N'
    , NULL
-   , NULL
+   , 'N'
    , 'Y'
    , '99'
    , NULL

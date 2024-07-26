@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-web-socket",
+    "version": "24.1.9-SNAPSHOT.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.5"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-websocket"
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-web-socket-24.1.9-SNAPSHOT.5.jar",
+          "url": "vectorx-web-socket-24.1.9-SNAPSHOT.5.jar",
+          "size": 22999,
+          "sha512": "7fa36ae125bc43823294844fa5cbc94f9956b19af63be73ead53589de3a7fcf43aa85c5e9761d1e88c2aa43bc4d08098d1a08d894d4b101eeb730a93e6593c72",
+          "sha256": "adc431e59a8309565e0b8c941237bb47e4c6a46f2d936293a95468dcad3ae9d5",
+          "sha1": "dfe255356a9c82f86cc4de1b6326720a7232ba05",
+          "md5": "e0917f48d5cc617e4bf0f5305e700a4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.5"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.5"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-websocket"
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-web-socket-24.1.9-SNAPSHOT.5.jar",
+          "url": "vectorx-web-socket-24.1.9-SNAPSHOT.5.jar",
+          "size": 22999,
+          "sha512": "7fa36ae125bc43823294844fa5cbc94f9956b19af63be73ead53589de3a7fcf43aa85c5e9761d1e88c2aa43bc4d08098d1a08d894d4b101eeb730a93e6593c72",
+          "sha256": "adc431e59a8309565e0b8c941237bb47e4c6a46f2d936293a95468dcad3ae9d5",
+          "sha1": "dfe255356a9c82f86cc4de1b6326720a7232ba05",
+          "md5": "e0917f48d5cc617e4bf0f5305e700a4a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-web-socket-24.1.9-SNAPSHOT.5-javadoc.jar",
+          "url": "vectorx-web-socket-24.1.9-SNAPSHOT.5-javadoc.jar",
+          "size": 132054,
+          "sha512": "e6b549af698cf4aa5112d2da01e0c266aaabfdafae2d2222742671053e973eb0c4ca604c346bd0b20bfbf6237e28b9da4858dea6d2caf4ab9c9110a8751a61ba",
+          "sha256": "24d8bfd795fa9306282a55b19ec4dfa6f8d3a2a1aece065f8fc4cb0ce8b0a6b8",
+          "sha1": "621d6fab7af698c95d2620304ae76656427ab00a",
+          "md5": "2165a25452f86a52f065d5ea83269d84"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-web-socket-24.1.9-SNAPSHOT.5-sources.jar",
+          "url": "vectorx-web-socket-24.1.9-SNAPSHOT.5-sources.jar",
+          "size": 11319,
+          "sha512": "30f55290390d3f03f08aba0847d21f94fd76df920e4b159c5963da40a1c996467ef44c99b99acb377ca63e16e9b4c33fb0abec4a02743b85a9e6a155fc7fe5c5",
+          "sha256": "d7a9645842a3fdcf862aee879b942fae3931aaaff95959c39ab5d5f2c93c7dbe",
+          "sha1": "a408820cae1374e57fb2175a43ce1b5af2d84d51",
+          "md5": "1b42e1729f531984ad80eee58b7fa05d"
+        }
+      ]
+    }
+  ]
+}
