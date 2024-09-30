@@ -52,7 +52,30 @@ me.vectorx.spring.templates.bo.samples.code 패키지에 있으며, VECTORX_SAMP
 - post
 me.vectorx.spring.templates.bo.samples.code 패키지에 있으며, VECTORX_SAMPLE_POST 테이블에 CRUD를 수행하는 API 샘플
 
+## Configurations
 
-## Swagger
+### Swagger
 `SwaggerConfiguration.java` 설정으로 Swagger 설정이 import 되어 있으며, 어플리케이션 구동 후 다음 URL로 접속 가능하다.
 - http://localhost:21002/swagger-ui/index.html
+
+### 프레임워크 테이블 매핑 변경
+`CustomFileGroupTableMappingModel.java`를 통해 프레임워크 테이블 매핑 설정을 변경한다.
+매핑 설정은 테이블명, 필드명을 변경할 수 있다.
+
+기본 테이블 매핑을 제거하기 위해 `applicaton.yml`에는 다음과 같은 설정이 추가되었다.
+```yaml
+vx:
+  data:
+    table-mapping:
+      exclude-classes:
+      - me.vectorx.spring.management.data.mapping.VxFileGroupTableMappingModel
+```
+
+
+- 참고 가이드 : https://vectorx.notion.site/VxTableEntityMapper-1f400926465544e996af6b3dcc114a42
+
+### 인증설정
+`AuthenticationConfiguration.java` 세팅으로 인증 설정이 변경되었다.
+AuthenticationConfiguration$AuthenticationListener 클래스는 인증과 인증해제 시, 특정한 쿠키 값을 작성 및 삭제하는 로직이 구현되어 있다.
+
+- 참고 가이드 : https://vectorx.notion.site/Security-d4a1c28c365b472889dab842c890af41#1193128721f44802b3d4b4cba2c9711a

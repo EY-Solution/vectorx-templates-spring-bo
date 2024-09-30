@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring.starter",
+    "module": "vectorx-starter-view-front",
+    "version": "24.1.9-SNAPSHOT.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-management-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-view-front-24.1.9-SNAPSHOT.9.jar",
+          "url": "vectorx-starter-view-front-24.1.9-SNAPSHOT.9.jar",
+          "size": 261,
+          "sha512": "2432b6b43d077fde51822adf4a620d45a92b64ca41ed243d6e521955c20780372d4dd6227317df66e27c43fb7369e2017007c74ede2f3c51412df7f9bba8f17d",
+          "sha256": "9b884eeee665d3ca67ed00045d15d0c9312feef159f5b952f2946f42f2f1df9e",
+          "sha1": "a1054988cbc1b7f5a4208d5a5d797f6ddb315272",
+          "md5": "160cb03f2e7e15fabffa7fe15bb17501"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-view",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-management-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-view-front-24.1.9-SNAPSHOT.9.jar",
+          "url": "vectorx-starter-view-front-24.1.9-SNAPSHOT.9.jar",
+          "size": 261,
+          "sha512": "2432b6b43d077fde51822adf4a620d45a92b64ca41ed243d6e521955c20780372d4dd6227317df66e27c43fb7369e2017007c74ede2f3c51412df7f9bba8f17d",
+          "sha256": "9b884eeee665d3ca67ed00045d15d0c9312feef159f5b952f2946f42f2f1df9e",
+          "sha1": "a1054988cbc1b7f5a4208d5a5d797f6ddb315272",
+          "md5": "160cb03f2e7e15fabffa7fe15bb17501"
+        }
+      ]
+    }
+  ]
+}
