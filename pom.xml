@@ -19,7 +19,7 @@
 
   <properties>
     <java.version>17</java.version>
-    <vectorx.version>24.1.9-SNAPSHOT.9</vectorx.version>
+    <vectorx.version>24.1.9-SNAPSHOT.13</vectorx.version>
   </properties>
 
 	<packaging>jar</packaging>
