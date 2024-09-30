@@ -25,7 +25,7 @@ public class VxSampleCodeService {
 	 * @return 코드 목록
 	 */
 	public List<VxSampleCodeEntity> getCodes() {
-		return vxSampleCodeMapper.selectList();
+		return vxSampleCodeMapper.select();
 	}
 
 	/**
@@ -36,7 +36,7 @@ public class VxSampleCodeService {
 	 */
 	@Nullable
 	public VxSampleCodeEntity getCode(@NotNull @NotBlank String grpCd, @NotNull @NotBlank String dtlCd) {
-		return vxSampleCodeMapper.select(grpCd, dtlCd);
+		return vxSampleCodeMapper.detail(grpCd, dtlCd);
 	}
 
 	/**

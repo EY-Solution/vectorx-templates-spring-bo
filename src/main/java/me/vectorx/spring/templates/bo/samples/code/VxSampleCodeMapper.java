@@ -15,7 +15,7 @@ public interface VxSampleCodeMapper {
 	 * 코드 목록 조회
 	 * @return List<VxSampleCodeEntity>
 	 */
-	List<VxSampleCodeEntity> selectList();
+	List<VxSampleCodeEntity> select();
 
 	/**
 	 *
@@ -23,7 +23,7 @@ public interface VxSampleCodeMapper {
 	 * @param dtlCd 상세 코드
 	 * @return VxSampleCodeEntity
 	 */
-	VxSampleCodeEntity select(@Param("grpCd") String grpCd, @Param("dtlCd") String dtlCd);
+	VxSampleCodeEntity detail(@Param("grpCd") String grpCd, @Param("dtlCd") String dtlCd);
 
 	/**
 	 * 코드 추가
