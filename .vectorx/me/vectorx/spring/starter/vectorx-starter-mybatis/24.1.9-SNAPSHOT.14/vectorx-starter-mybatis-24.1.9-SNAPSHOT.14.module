@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring.starter",
+    "module": "vectorx-starter-mybatis",
+    "version": "24.1.9-SNAPSHOT.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data-mybatis",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-mybatis-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-starter-mybatis-24.1.9-SNAPSHOT.14.jar",
+          "size": 261,
+          "sha512": "e52055536ac2831849d50b9755807fcf8c10c904dcc86f3ba55213d2b4b7ebcfcdb33acd5816472c3f440e028b8fc6e3fe7e4aa20b2428721be72d200c147776",
+          "sha256": "431508985b0acaf8b39e40dfdbc351e16acb045e9894eafbdeda80ea90871a27",
+          "sha1": "bf709864b65b0f4357901783f114a67f537f9b16",
+          "md5": "20d251fd3d808851510c26d14aad0fd8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-autoconfigure",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-test",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data-mybatis",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-starter-mybatis-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-starter-mybatis-24.1.9-SNAPSHOT.14.jar",
+          "size": 261,
+          "sha512": "e52055536ac2831849d50b9755807fcf8c10c904dcc86f3ba55213d2b4b7ebcfcdb33acd5816472c3f440e028b8fc6e3fe7e4aa20b2428721be72d200c147776",
+          "sha256": "431508985b0acaf8b39e40dfdbc351e16acb045e9894eafbdeda80ea90871a27",
+          "sha1": "bf709864b65b0f4357901783f114a67f537f9b16",
+          "md5": "20d251fd3d808851510c26d14aad0fd8"
+        }
+      ]
+    }
+  ]
+}

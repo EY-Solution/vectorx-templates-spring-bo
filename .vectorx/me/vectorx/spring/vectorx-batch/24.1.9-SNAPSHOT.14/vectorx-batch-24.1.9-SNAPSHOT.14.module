@@ -1,0 +1,226 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-batch",
+    "version": "24.1.9-SNAPSHOT.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vectorx-batch-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-batch-24.1.9-SNAPSHOT.14.jar",
+          "size": 246000,
+          "sha512": "81a5bdbeff669faf3fe398742739812f81b7a1ea0276c241853eee689284a2df22a012c2ac9df173c78a8e6e1287fd2ef3f820d2ef14c8de64866ea4f85a3002",
+          "sha256": "b80cb5887dd0c3864aed0858ff8692c67e719503097f0ad76c68faebc370e54b",
+          "sha1": "b4fdc70665005448ffc0d8332dd519570b2f1171",
+          "md5": "77d485bcae740d2081c98d315e6d4168"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-core",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-data-mybatis",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "me.vectorx.spring",
+          "module": "vectorx-web-servlet-rest",
+          "version": {
+            "requires": "24.1.9-SNAPSHOT.14"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        },
+        {
+          "group": "com.cronutils",
+          "module": "cron-utils",
+          "version": {
+            "requires": "9.2.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-batch-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-batch-24.1.9-SNAPSHOT.14.jar",
+          "size": 246000,
+          "sha512": "81a5bdbeff669faf3fe398742739812f81b7a1ea0276c241853eee689284a2df22a012c2ac9df173c78a8e6e1287fd2ef3f820d2ef14c8de64866ea4f85a3002",
+          "sha256": "b80cb5887dd0c3864aed0858ff8692c67e719503097f0ad76c68faebc370e54b",
+          "sha1": "b4fdc70665005448ffc0d8332dd519570b2f1171",
+          "md5": "77d485bcae740d2081c98d315e6d4168"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-batch-24.1.9-SNAPSHOT.14-javadoc.jar",
+          "url": "vectorx-batch-24.1.9-SNAPSHOT.14-javadoc.jar",
+          "size": 577244,
+          "sha512": "4a7a165ae5951b987f43ea043dcae3fffc26df921bd9794535222fd413744ccead88a65f5029a9989f577e2b645e6f83a2b4013c3680c4604abe269af93589ad",
+          "sha256": "b2b9f6f383f985e8e7b48c72ffba25e2e5fc1505bbb9e7a3a3bf4ca13ad75439",
+          "sha1": "0f234891f6e6f4ff535c2b01fc17dd8ced27bbc8",
+          "md5": "4494470315076550ac73d4c58d68ad49"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-batch-24.1.9-SNAPSHOT.14-sources.jar",
+          "url": "vectorx-batch-24.1.9-SNAPSHOT.14-sources.jar",
+          "size": 101772,
+          "sha512": "d246fe656838f3674c38d62910b028c22d5b99a8a07adbdef109ae9c67de6b2665aa50d02a5f0984c6e33b06408cd518e34575f97bd2886b85c4954637708a81",
+          "sha256": "8dda29cc319c631a75fb681ef91527a54cf20181f1147fe7fab874d9ff9c6f72",
+          "sha1": "3f56042f7ee9b14c4db88c2f73cf03c70fb4d58a",
+          "md5": "babeb312f74fb4367f1b6ed365d2047a"
+        }
+      ]
+    }
+  ]
+}

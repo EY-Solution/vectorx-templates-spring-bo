@@ -1,0 +1,444 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.vectorx.spring",
+    "module": "vectorx-core",
+    "version": "24.1.9-SNAPSHOT.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.9.4"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.16.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.14.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-cache"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.apache.tomcat.embed",
+              "module": "tomcat-embed-el"
+            }
+          ]
+        },
+        {
+          "group": "com.github.ulisesbocchio",
+          "module": "jasypt-spring-boot-starter",
+          "version": {
+            "requires": "1.17"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jaxb-annotations",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine"
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache"
+        },
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.sun.xml.ws",
+          "module": "jaxws-rt",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.imgscalr",
+          "module": "imgscalr-lib",
+          "version": {
+            "requires": "4.2"
+          }
+        },
+        {
+          "group": "org.apache.tika",
+          "module": "tika-core",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.github.jai-imageio",
+          "module": "jai-imageio-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        },
+        {
+          "group": "io.github.kostaskougios",
+          "module": "cloning",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "dev.akkinoc.util",
+          "module": "yaml-resource-bundle",
+          "version": {
+            "requires": "2.12.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-core-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-core-24.1.9-SNAPSHOT.14.jar",
+          "size": 235975,
+          "sha512": "de9472ffc4687623adce7cc337f73e080c51c124d736bcf60b73b9b001367a99456152378581aa292ad302275a70b23ad225d9324ef033fa566e03c399c32474",
+          "sha256": "102542179d3ad159330842087bb60c7d2b9d092e34cb8ea51fc91e640696d0e0",
+          "sha1": "8eee73dbe2ddb74247c80b9996a52995f51b1c17",
+          "md5": "4a4e4037f6587f9ad5c15de466dd9760"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.9.4"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.16.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.14.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-cache"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.apache.tomcat.embed",
+              "module": "tomcat-embed-el"
+            }
+          ]
+        },
+        {
+          "group": "com.github.ulisesbocchio",
+          "module": "jasypt-spring-boot-starter",
+          "version": {
+            "requires": "1.17"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-jaxb-annotations",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine"
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache"
+        },
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.sun.xml.ws",
+          "module": "jaxws-rt",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.imgscalr",
+          "module": "imgscalr-lib",
+          "version": {
+            "requires": "4.2"
+          }
+        },
+        {
+          "group": "org.apache.tika",
+          "module": "tika-core",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.github.jai-imageio",
+          "module": "jai-imageio-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.github.kostaskougios",
+          "module": "cloning",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "dev.akkinoc.util",
+          "module": "yaml-resource-bundle",
+          "version": {
+            "requires": "2.12.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectorx-core-24.1.9-SNAPSHOT.14.jar",
+          "url": "vectorx-core-24.1.9-SNAPSHOT.14.jar",
+          "size": 235975,
+          "sha512": "de9472ffc4687623adce7cc337f73e080c51c124d736bcf60b73b9b001367a99456152378581aa292ad302275a70b23ad225d9324ef033fa566e03c399c32474",
+          "sha256": "102542179d3ad159330842087bb60c7d2b9d092e34cb8ea51fc91e640696d0e0",
+          "sha1": "8eee73dbe2ddb74247c80b9996a52995f51b1c17",
+          "md5": "4a4e4037f6587f9ad5c15de466dd9760"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-core-24.1.9-SNAPSHOT.14-javadoc.jar",
+          "url": "vectorx-core-24.1.9-SNAPSHOT.14-javadoc.jar",
+          "size": 600513,
+          "sha512": "a46bbd9a1549db6521dd74c5f2f7d8e2f2003185daf82ae0fb3afb9d20d0aa3e9511c43a14005c67e91ab6c8d367a4951a1bbad81c7176cd647d5eebc5c7b8b4",
+          "sha256": "40e82cfc8adfef238697c3ca8bc4671381e314d366cd099f093877de40587428",
+          "sha1": "2d1c7e08ecb4fa136ce561c63065e156a6974fde",
+          "md5": "e75c0c202548c5210b267a7b5913a512"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectorx-core-24.1.9-SNAPSHOT.14-sources.jar",
+          "url": "vectorx-core-24.1.9-SNAPSHOT.14-sources.jar",
+          "size": 114533,
+          "sha512": "db716017d8435bb628a0598be91dea29d92ee988063e575e435ce5034406d364f18cfa3b3fa62708257948c188c78a0c4453bf77a92fc353f5d257ad1668a1ab",
+          "sha256": "57f67e219f6d385a28a1ff783fe27d8caa60cf9b49f7c486a8516d034f0c2996",
+          "sha1": "3eb0ab93a65bfce12921d134572d78aadd57193f",
+          "md5": "9308b0c13a342806bbf58a2db926089e"
+        }
+      ]
+    }
+  ]
+}
